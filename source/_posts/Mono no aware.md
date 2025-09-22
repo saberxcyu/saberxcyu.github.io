@@ -1,11 +1,11 @@
 ---
-title: Mono no aware - After the Cherry Blossoms Fall [Philosophy and Aesthetics]
+title: Mono no aware - After the Cherry Blossoms Fall
 date: 2022-03-20
 categories: [blog]
-tags: [philosophy, aesthetics, japanese]
+tags: [philosophy, aesthetics]
 ---
 
-![Alt text](Mono no aware/1.jpg)
+![Alt text](Mononoaware/1.jpg)
 
 Inspired by "The Tale of Genji" and the works of Masayuki Kurokawa (Japanese architect and designer), including "The Eight Aesthetic Senses of Japan" (八つの日本の美意識), "Design and Death" (デザインと死), and "Material and Body" (素材与身体), I developed a growing interest in Japanese philosophy and aesthetics. This interest ultimately led me to Yoshinori Onishi's "Mono no aware - After the Cherry Blossoms Fall" (物哀-樱花落下后), which I read in Wang Xiangyuan's Chinese translation (from the Beijing Normal Univeristy). My appreciation for the concept of "Mono no aware" reached its peak after reading the book.
 
@@ -15,7 +15,7 @@ Due to these challenges, I decided to write this blog in plain language to share
 
 ---
 
-![Alt text](Mono no aware/2.jpg)
+![Alt text](Mononoaware/2.jpg)
 
 **What is "Mono no Aware"?**
 
@@ -52,7 +52,7 @@ When Duan Yu first saw the young lady, his ears buzzed, his vision blurred, and 
 
 This momentary self-loss in the example is the hint for understanding 哀れ at Stage Three.
 
-![Alt text](Mono no aware/3.jpg)
+![Alt text](Mononoaware/3.jpg)
 
 
 **Stage Four. Expansion to Life, Existence, and Weltschmerz**
@@ -84,11 +84,11 @@ The term "Cosmic Consciousness" is somewhat misleading. It doesn't mean the awar
 
 **Examples**
 
-- In "Haibungaku Zatsuki", the author recalls his response to Bashō’s phrase "The butterfly recalls reality - it is the most mono no aware": When I was reading this, I felt the lonely desolation of an April spring day. The butterfly, uncertain and aimless, is not dancing among flowers but drifting helplessly with the breeze - to the left, to the right, carried nowhere, through the long spring day. This is its mono no aware... The feeling of emptiness suspended between the valley of reality and the pursuit of boundless dreams.
+- In "Haibungaku Zatsuki", the author recalls his response to Bashō’s phrase "The butterfly recalls reality - it is the most mono no aware": When I was reading this, I felt the lonely desolation of an April spring day. The butterfly, uncertain and aimless, is not dancing among flowers but drifting helplessly with the breeze - to the left, to the right, carried nowhere, through the long spring day. This is its Mono no aware... The feeling of emptiness suspended between the valley of reality and the pursuit of boundless dreams.
 
 - In "Man's Search for Meaning", it describes a young woman in the concentration camp, knowing she was about to die, pointed at a tree and said "This tree is my only friend in solitude. I often talk to it... It says to me: 'I am here - I am life, eternal life'".
 
-![Alt text](Mono no aware/4.jpg)
+![Alt text](Mononoaware/4.jpg)
 
 ---
 
@@ -96,7 +96,7 @@ Now that we have explained the five aspects of 哀れ ("aware"), let me take you
 
 In the whole ceremony, my favorite scene was right about the 33-minute mark, where the wooden Olympic rings were assembled.
 
-![Alt text](Mono no aware/5.jpg)
+![Alt text](Mononoaware/5.jpg)
 
 In my opinion, the performance involves two different dimensions, with one that shows the presence (as "Dasein", beings-in-the-world), and another one that is serving like a zoomed-out view that shows humanity as a species. And the two dimensions created a beautiful contrast for the ceremony.
 
@@ -104,23 +104,23 @@ At first (image above), the performers were looking at blueprints, building toge
 
 Around the 37-minute mark, through the solo tap-dance, the music shifted slightly, as if something were incubating (see the two images below).
 
-![Alt text](Mono no aware/6.jpg)
+![Alt text](Mononoaware/6.jpg)
 
-![Alt text](Mono no aware/7.jpg)
+![Alt text](Mononoaware/7.jpg)
 
 Soon after that, a distinctly Japanese female voice entered into the soundtrack. At that moment, groups of people came together from all directions, pushing the wooden Olympic rings towards the center of the stage. 
 
-![Alt text](Mono no aware/8.jpg)
+![Alt text](Mononoaware/8.jpg)
 
 This voice carried a sense of solemn, reminding us of impermanence, fragility, and the smallness of human life. This is the second dimension. These elements made me felt anxious and heavy. Yet, on stage, the performers were joyful, smiling as they collaborated. They carried no sorrow, only vitality, like cherry blossoms that bloom with full strength despite their inevitable fall, as if its only purpose in the world is to exist, even just for a short time.
 
-![Alt text](Mono no aware/9.jpg)
+![Alt text](Mononoaware/9.jpg)
 
 Finally, when the assembly for the five wooden rings was completed, fireworks lit up the sky.
 
-![Alt text](Mono no aware/10.jpg)
+![Alt text](Mononoaware/10.jpg)
 
-![Alt text](Mono no aware/11.jpg)
+![Alt text](Mononoaware/11.jpg)
 
 What struck me most was not the fireworks at the stadium, but the momentary self-loss I experienced as I watched the ceremony from my computer, and the emotion that lingered long after the program ended.
 
