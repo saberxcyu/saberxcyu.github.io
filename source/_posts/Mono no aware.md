@@ -1,5 +1,6 @@
 ---
 title: Mono no aware - After the Cherry Blossoms Fall [Philosophy and Aesthetics]
+date: 2025-09-21
 ---
 
 ![Alt text](Mono no aware/1.jpg)
