@@ -1,164 +1,126 @@
 ---
 title: Mono no aware - After the Cherry Blossoms Fall [Philosophy and Aesthetics]
-date: 2025-09-21
+date: 2022-03-20
 ---
 
 ![Alt text](Mono no aware/1.jpg)
 
-Preface
+Inspired by "The Tale of Genji" and the works of Masayuki Kurokawa (Japanese architect and designer) that include "The Eight Aesthetic Senses of Japan" (八つの日本の美意識), "Design and Death" (デザインと死), and "Material and Body" (素材与身体), I developed a growing interest in Japanese philosophy and aesthetics. This interest ultimately led me to Yoshinori Onishi's "Mono no aware - After the Cherry Blossoms Fall" (物哀-樱花落下后), which I read in Wang Xiangyuan's Chinese translation (from the Beijing Normal Univeristy). My appreciation for the concept of "Mono no aware" reached its peak after reading the book.
 
-Inspired by "The Tale of Genji" and the works of Masayuki Kurokawa (Japanese architect and designer) including "The Eight Aesthetic Senses of Japan" (八つの日本の美意識), "Design and Death" (デザインと死), and "Material and Body" (素材与身体), I developed a growing interest in Japanese philosophy and aesthetics. This interest ultimately led me to the book "Mono no aware - After the Cherry Blossoms Fall" (物哀-樱花落下后) by Yoshinori Onishi (translated from Japanese into Chinese by Wang Xiangyuan of Beijing Normal University), with my fascination reaching its peak upon completing the book.
+When I began reading, my intention was simple. I just wanted to understand what "Mono no aware" means, and to experience that aesthetic sensibility for myself. However, reading the book was actually far from simple, mainly due to two reasons. First, the book is full of abstract terminology, logical proofs, and references to Western philosophy. These things are difficult to grasp without background or at least some familiarity with philosophy studies. In addition to this, the Chinese edition is a word-for-word translation from the Japanese thanks to Wang Xiangyuan. While this preserves much of the author's original thoughts, it results in a text that deviates a lot from natural Chinese expressions. 
 
-My initial intention in reading this book was simple. I just wanted to understand what Mono no aware means and to experience that particular sense of aesthetics for myself. However, I found the book extremely difficult to read for two main reasons. First, it is filled with dense philosophical terminology, along with elaborated attempts at logical reasoning and proof. To fully understand these contents, one needs a background, or at least some familiarity with philosophy studies. Second, the Chinese version of the book I read is a literal translation from Japanese thanks to Wang Xiangyuan. While this preserves much of the author's original thoughts, it results in a text that deviates a lot from natural Chinese expressions. At times, I often had the strange feeling that once the characters were put together to form sentences, I would no longer recognize any of them.
+Due to these challenges, I decided to write this blog in plain language to share my humble understanding of the concept "Mono no aware", hoping that more people can encounter, understand, maybe even appreciate the beauty in it.
 
-As a result of that, I wrote this blog, using plain and simple language, to share my humble understanding of Mono no aware, in the hope that more people can encounter, understand, and appreciate the beauty of this concept. 
+---
 
 ![Alt text](Mono no aware/2.jpg)
 
-Basically, the "Mono" (物) and "no" (の) in "Mono no aware" (物の哀れ) mean "things" and "of". This simply turns the sentence into something like "the aware (哀れ) of things". So the key to understanding "Mono no aware" is to understand what "aware" (哀れ) means. And according to Yoshinori Onishi, there are five stages of "aware" (哀れ):
+What is "Mono no Aware?
 
-1. Direction Expression
-In its most basic form, 哀れ is simply the direct psychological expression of sorrow and pity.
+The phrase "Mono no aware" (物の哀れ) breaks down simply into three components:
+- Mono (物), which means "things".
+- no (の), which is Japanese's "of".
+- aware (哀れ), a special sense that needs further explanation of.
 
-2. Beyond Specific Emotions
-At the second stage, the concept broadens from sorrow and pity to encompass all emotions. Joy, anger, sadness, excitement - all of these can be included within 哀れ.
-
-3. Aesthetic Awareness Through Intuitive Perception and Tranquility Contemplation
-哀れ at this stage describes the experience where one accesses intuitive perception on the object and enters a state of stillness, feeling detachment from the restless thoughts, and giving rise to a high level of aesthetic awareness.
-
-4. Expansion to Life, Existence, and Weltschmerz
-Building on Stage 3, 哀れ now expands beyond specific objects or experiences to embrace the broader significance of life and existence, with a very particular tone of sorrow. At this level, it touches on metaphysical and mystical dimensions and produces a feeling akin to Weltschmerz (“world pain”) - the sense that life is difficult and filled with sadness.
-
-5. Integration towards Cosmic Consciousness and Oneness
-In the final stage, 哀れ is no longer bound to a sorrowful tone. Instead, it becomes a more general and complete aesthetic sensibility that often leads toward Cosmic Consciousness and Oneness.
+Literally, the term "Mono no aware" means "a special sense of things". So to understand this concept, we must go over what is the sense in "aware" (哀れ). I will use the Japanese word 哀れ from here on to avoid misleading you with the English word aware as in awareness, since the spelling is identical.
 
 ---
 
-Stage. One
+According to Yoshinori Onishi, 哀れ unfolds into the following five different stages:
 
-哀れ at this stage just means sadness and sorrow on a pschological level.
+**Stage One. Direction Expression**
+In its most basic form, 哀れ expresses sorrow or pity. It is a pure psychological expression of sadness.
 
----
+**Stage Two. Beyond Specific Emotions**
+Here, the concept broadens from sorrow and pity to enbrace all emotional exclamations. Joy, anger, sadness, excitement - all of these can be expressed by 哀れ. For example, when people are joyful, they would say something like "哀れ! I am so happy!", and when they are angry, they can also be like "哀れ! I am so mad!".
 
-Stage. Two
+**Stage Three. Aesthetic Awareness Through Intuitive Perception and Tranquility**
+This stage marks the transition of 哀れ from pure emotional expressions to aesthetic and philosophical awareness. 哀れ now describes an intuitive perception of beauty that arises in a state of stillness.  
 
-哀れ extends to all kinds of emotions and is not limited only to sadness and sorrow. For example, when people are joyful, they would say something like "哀れ! I am so happy!", and when they are mad, they can also be like "哀れ! I am so angry!". It is a general usecase that involves a lot more emotions, but at this stage, 哀れ is still limited to pschological-level expressions.
+In Yoshinori's time, many Japanese philosophors were influenced by Western philosophy which stemmed from Plato, Aristotle, Kant, and Schopenhauer. They often see the world in dualistic terms, consisting of the phenomenal world (representation) and the noumenal world (the world as it is; some philosophers called it the "thing-in-itself", others called "Idea", "Brahman", or "Suchness"). They believed true beauty is encountered when one approaches the noumenal world, often through moments of intuitive perception and tranquil contemplation.
 
----
+Sometimes this occurs when strong emotions overwhelms us, producing a momentary self-loss, where the mind goes blank with the loss of awareness in time and space, leaving only the vivid presence of beauty itself.
 
-Stage. Three
+**Examples**
+In Jin Yong's Demi-Gods and Semi-Devils (Chapter 12, “Henceforth Obsessed”), Duan Yu (段誉) encounters such a moment:
+    
+    When Duan Yu first saw the young lady, his ears buzzed, his vision blurred, and his knees gave way—he nearly collapsed. Overwhelmed, he could only cry out, “Fairy Sister, I’ve longed for you so bitterly!” Confronted with her presence, he could no longer tell whether he stood in heaven or on earth.
 
-At this stage, 哀れ makes a shift from pure psychological expressions into aestheitcs and philosophy, involving elements like intuitive perception and tranquil contemplation. 
-
-In Yoshinori's time, many Japanese philosophors were influenced by Western philosophy which stemmed from Plato, Aristotle, Kant, and Schopenhauer. They often see the world in dualism, consisting of the phenomenal world (Representation) and the noumenal world (the world as it is in itself; some philosophers called it the "thing-in-itself", others called "Idea", "Brahman", or "Suchness"). They believe The Beautiful can be encountered when one approaches the essence of the noumenal world, and the key to access that world is through intuitive perception when one transitions to the tranquil. 
-
-Strong emotions sometimes struck people and provide access to intuitive perception and tranquil. Imagine yourself encountering something something beautiful and is momentarily "self-loss" (your mind goes blank and you lose awareness of time and space, and you are only left with the vivid presence of the beauty itself). This is what is described by 哀れ at this level.
-
-As an example of 哀れ at this stage, we can see a scene from "Demi-Gods and Semi-Devils" (Chapter 12, “Henceforth Obsessed”, by Jin Yong), which illustrates this moment:
-
-...When Duan Yu first saw the young lady, his ears buzzed, his vision blurred, and his knees gave way — he nearly collapsed. Overwhelmed, he could only cry out, “Fairy Sister, I’ve longed for you so bitterly!” To him, the young woman appeared identical to the jade statue he had adored countless times in his dreams. Confronted with her real presence, he was unable to tell whether he stood in heaven or on earth.
+This momentary self-loss in the example is the hint for understanding 哀れ at Stage Three.
 
 ![Alt text](Mono no aware/3.jpg)
 
----
+**Stage Four. Expansion to Life, Existence, and Weltschmerz**
+Building on Stage Three, 哀れ now expands beyond specific objects or experiences to embrace the broader significance of life and existence, with a very particular tone of sorrow. At this level, it touches on metaphysical and mystical dimensions and produces a feeling akin to Weltschmerz (“world pain”) - the sense that life is difficult and filled with sadness.
 
-Stage. Four
+Building on Stage Three, 哀れ now expands beyond specific objects or experiences to embrace the broader significance of life, existence, impermanence, and death. Sorrow at this stage again comes back to play and becomes the dominant tone, but paradoxically, it is through sorrow that the aesthetics and pleasure emerges. I know this sounds pretty psychopathic. But let me explain.
 
-The 哀れ at stage 4 is built on top of the previous stage but under a tone of sorrow and pity. The reason why 哀れ is next-level at this stage is because there are actually pleasure and aesthetics one could experience from the sorrow. This sounds pretty psychopathic. But let me explain.
+Human is often bothered with fundamental questions like: Who are we? Why do we exist? What is the meaning of life? Where does death leads? Etc. While some of the anxieties are soothed by religions, we still can't resist thinking and worrying about them from time to time, especially when our life is tough and the mood is down. 
 
-Many of us are bothered with questions like: Who are we? Why do we exist? What is the meaning of life? Where does death leads? Etc. While some of these anxieties are handled and soothed by religions, we still can't resist thinking about them from time to time, especially when our life is tough and the mood is down. 
+Yoshinori believes the daily tone of our lives is generally positive, and he argues that sorrow tends to be felt more profoundly than joy as it brings in strong contrasts that lead to contemplation. Yoshinori explains this with a metaphor of a moving train, where objects moving in the opposite dircetion appear more striking than those moving with it. And likewise, sorrow stands out more against the flow of daily joy. 
 
-Yoshinori believes most of the days for most people are somewhat joyful and he argues that sorrow tends to be felt more profoundly than joy as it brings strong constrasts that promote contemplation. Yoshinori illustrates this with a metaphor of a moving train, where objects that are moving in a different direction of the train are more noticeable versus those moving in the same direction.
+As sorrow drives reflections, it leads us to feeling closer to confronting these fundamental questions, so when we come back from such reflections, we experience a temporary release from them, and this is where the pleasure we feel comes from. 
 
-As sorrow drives reflections, it leads us to feel closer to confronting these questions, so when we come back from such reflections, we experience a temporary release from the bothers - and this release is the source of the pleasure we feel.
+To understand 哀れ at this level more throughly, we need to introduce Weltschmerz, which translates to "world-pain" in English. It is the despair of seeing the world as full of conflict and meaningless. Based on this perspective, the only logical thing for us to do right away is to give up and to suicide. However, throughout human history, this kind of pessimistic worldview often gives birth to existentialist thoughts, paradoxically encouraging resilience in us. And this contrast is what is leading towards aesthetics.
 
-To understand 哀れ at this level more throughly, we need to introduce Weltschmerz, which translates to "world-pain" in English. It is a sense of despair rooted in aa ark view of the world and of life that think the world as full of conflict and life as meaningless. Based on this perspective, the only thing that is logical for us to do right away is give up the resistance and to suicide. However, if we take a look at human history, we can see that this kind of pessimistic worldview often leads to existentialist thoughts, which paradoxically, often serve as an encouragement for us to go on living. The resilence of us as a species and the constrast that we are living energitically in this sorrowful life further leads to aesthetic senses.
+**Examples**
+From the Tale of Genji:
+- “The sky was overcast, heavy snow filled the air… Night deepened, the unfavorable moon revealed its presence. People rolled up the blinds to gaze afar. Resting on their pillows, they listened to the tolling bells of a mountain temple… A poem was sung: Life is transient, the moon does not remain, I long to follow the moon into death.”
 
-Here are a couple of examples from "The Tale of Genji" for illustrating the 哀れ at this stage:
+- “As the splendid dance of Ryōō resounded, the music was magnificent. People removed their robes to reward the performers; the scene was lively and joyous… everyone was filled with delight regardless of their class. Yet Lady Murasaki, watching the spectacle, thought of her life nearing its end and was moved by a sense of infinite sorrowful beauty.”
 
-The Tale of Genji
-“The sky was overcast, heavy snow filled the air… Night deepened, the unfavorable moon revealed its presence. People rolled up the blinds to gaze afar. Resting on their pillows, they listened to the tolling bells of a mountain temple… A poem was sung: Life is transient, the moon does not remain, I long to follow the moon into death.”
+**Stage Five. Toward Cosmic Consciousness and Oneness**
+At the final stage, 哀れ is no longer bound to a sorrowful tone. Instead, it becomes a more general aesthetic sensibility that evolves toward a contemplation of Cosmic Consciousness and Oneness, meaning that the 哀れ from other objects can also be felt as it was us experiencing it.
 
-The Tale of Genji
-“As the splendid dance of Ryōō resounded, the music was magnificent. People removed their robes to reward the performers; the scene was lively and joyous… everyone was filled with delight regardless of their class. Yet Lady Murasaki, watching the spectacle, thought of her life nearing its end and was moved by a sense of infinite sorrowful beauty.”
+The term "Cosmic Consciousness" is somewhat misleading. It doesn't mean the awareness of the universe, but rather it suggests that beyond our physical bodies, every one of us co-exists in the form of pure consciousness pervading the cosmos. We don't just form parts of this consciousness. We are this consciousness. And this is what Daoism calls "Oneness" (太一).
 
----
+(side note: some argue that the Big Bang has shown that all things are originated from one point, and therefore we are essentially One. However, I do not hold this opinion because logically speaking, just because we might have started as one, it doesn't mean that we will remain as one afterwards.)
 
-Stage. Five
+**Examples**
 
-The difference for 哀れ at stage 5 versus 4 is only a shift in tone, from a special sorrowful one into a general aesthetic feeling evolving towards Cosmic Consciousness and Onesness.
+- In "Haibungaku Zatsuki", the author recalls his response to Bashō’s phrase "The butterfly recalls reality - it is the most mono no aware": When I was reading this, I felt the lonely desolation of an April spring day. The butterfly, uncertain and aimless, is not dancing among flowers but drifting helplessly with the breeze - to the left, to the right, carried nowhere, through the long spring day. This is its mono no aware... The feeling of emptiness suspended between the valley of reality and the pursuit of boundless dreams.
 
-Cosmic consciousness is often misread as the awareness of the universe in addition to our daily lives, but it rather refers to the idea that beyond the our bodies, everyone of us co-exists in the form of pure consciousness pervading the cosmos. We are not just parts of the consciousness. Both you and I and everyone in the world is this consciousness itself. 
-
-This leads to the idea of Oneness, what Daoism calls Taiyi (the great One).
-
-(side note: some argue that the Big Bang shows that all things are originated from one point, and therefore we are ultimately belonging to the same "thing". However, I do not hold this opinion. I think logically speaking, just because we might have started as one, it doesn't prove that we remain as one after the Bang.)
-
-So, this leads to stage 5 哀れ basically being aestheitc contemplation infused with the thought of Oneness. Similar to stage 4, it leans more towards metaphysicis than stage 1-3.
-
-And here are two examples:
-
-In "Haibungaku Zatsuki", the author recalls his response to Bashō’s phrase "The butterfly recalls reality - it is the most mono no aware" as: 
-
-When I was reading this, I felt the lonely desolation of an April spring day. The butterfly, uncertain and aimless, is not dancing among flowers but drifting helplessly with the breeze - to the left, to the right, carried nowhere, through the long spring day. This is its mono no aware... The feeling of emptiness suspended between the valley of reality and the pursuit of boundless dreams.
-
-In "Man's Search for Meaning", it describes a young woman in the concentration camp, knowing she was about to die, pointed at a tree and said "This tree is my only friend in solitude. I often talk to it... I says to me: 'I am here - I am life, eternal life'".
+- In "Man's Search for Meaning", it describes a young woman in the concentration camp, knowing she was about to die, pointed at a tree and said "This tree is my only friend in solitude. I often talk to it... It says to me: 'I am here - I am life, eternal life'".
 
 ![Alt text](Mono no aware/4.jpg)
 
 ---
 
-Now that we understand the five aspects of 哀れ ("aware"), we should have a deeper understanding for Mono no aware. With this, let me take you to the 2020 Tokyo Olympic Opening Ceremony through the lens of Mono no aware, and hopefully you can experience the aesthetics for yourself as well.
+Now that we have explained the five aspects of 哀れ ("aware"), let me take you to the 2020 Tokyo Olympic Opening Ceremony through the lens of "Mono no aware", and hopefully you can experience it for yourself as well.
+
+In the whole ceremony, my favorite scene was right about the 33-minute mark, where the wooden Olympic rings were assembled.
 
 ![Alt text](Mono no aware/5.jpg)
 
-My favorite part in the ceremony was just about at the 33-minute mark, where the wooden Olympic rings were assembled.  There were lots of memes on the Chinese internet about this scene. Some disliked it and called it "building a coffin together". But I see this performance differently, and I think there are two perspectives that one can experience aesthetics from - on the level of ordinary lives (as "Dasein", beings-in-the-world), and on the level of humanity as a whole.
+In my opinion, the performance involves two different dimensions, with one that shows the presence (as "Dasein", beings-in-the-world), and another one that is serving like a zoomed-out view that shows humanity as a species. And the two dimensions created a beautiful contrast for the ceremony.
 
-At the very beginning (see picture above), the scene shows only the first level: people looking at blueprints, building together, working side by side. 
+At first (image above), the performers were looking at blueprints, building together, and working side by side. This is the first dimension - the presence. 
 
-Around the 37th minute, after the solo tap-dance, the music shifts slightly, as if something is being carefully nurtured (see the two images below).
+Around the 37-minute mark, through the solo tap-dance, the music shifted slightly, as if something were incubating (see the two images below).
 
 ![Alt text](Mono no aware/6.jpg)
 
 ![Alt text](Mono no aware/7.jpg)
 
-By about 37:50, a distinctly Japanese female voice enters the soundtrack. For me, this voice revealed the second level - humanity as a whole. At that moment, diverse groups of people came together to push the wooden Olympic rings into the center of the stage. 
+Soon after that, a distinctly Japanese female voice entered into the soundtrack. At that moment, groups of people came together from all directions, pushing the wooden Olympic rings towards the center of the stage. 
 
 ![Alt text](Mono no aware/8.jpg)
 
-From that voice and from the "humanity" level of the performance, I felt a solemn, tragic air, evoing impermanence, fragility, and the smallness of human life. These elements made me anxious and fearful.
-
-Yet, on screen, the performers showed no sorrow. Smiling, they collaborated joyfully, as if human destiny, however tragic, did not burden them. Like cherry blossoms that must inevitably fall, they blossomed with all their strength - as if mere existence itself were their meaning. 
+This voice carried a sense of solemn, reminding us of impermanence, fragility, and the smallness of human life. This is the second dimension. These elements made me felt anxious and heavy. Yet, on stage, the performers were joyful, smiling as they collaborated. They carried no sorrow, only vitality, like cherry blossoms that bloom with full strength despite their inevitable fall, as if its only purpose in the world is to exist, even just for a short time.
 
 ![Alt text](Mono no aware/9.jpg)
 
-Finally, the five wooden rings were completed, and fireworks lit up the sky.
+Finally, when the assembly for the five wooden rings was completed, fireworks lit up the sky.
 
 ![Alt text](Mono no aware/10.jpg)
 
 ![Alt text](Mono no aware/11.jpg)
 
-What moved me most was not the fireworks, but my own fleeting moment of self-loss as I watched the ceremony, and the deep stirring in my chest that lingered long after the program ended.
+What struck me most was not the fireworks at the stadium, but the momentary self-loss I experienced as I watched the ceremony from my computer, and the emotion that lingered long after the program ended.
 
-The End
+And this, I realized, was "Mono no aware". How about you?
 
-从物哀之美看东京奥运
+**The End**
 
-在文章的最后，我想带着物哀之情，和大家一起回顾一下沸沸扬扬的2020东京奥运开幕式。
-在整个开幕式里，我最喜欢的一个节目是在第33分钟开始的那个拼木质五环的那个表演。就是网友说的“帮你做棺材”的那个节目。
-
-我觉得这个节目是存在着两个维度的。一个是作为人类这个物种的维度，一个是现实生活(作为“此在”的人)的维度。
-表演一开始的时候 （上面的截图），整个画面只有现实生活的维度，大家一起看着图纸，一起制造，一起建设。
-从那个SOLO踢踏舞的人跳完之后开始，大概37分钟左右，音乐开始有一些变化，仿佛在小心翼翼的孕育着什么。(下面两个截图)
-
-然后从差不多37分50秒开始 (下面截图)，有一个很日式的女人的声音进入到背景音乐里来，而这个女声则让我感受到了整个表演的第二维度 --- 作为人类的维度。这个时候画面里开始有各种各样的人把奥运五环推至舞台中央。
-
-从那个女声和第二个维度里，我觉得可以感受到一种悲壮的气息，还有类似于生命的无常、人类的渺小等等这些元素。这些元素使我感到担心，让我不安，传递出一种让人害怕的电波。
-但此时在画面中，各种各样的人却丝毫不觉得悲伤。每个人都是面带笑容地与他人合作。他们仿佛完全不把那充满哀愁、我们作为人类的命运放在心上。
-就像那最终必然凋零的樱花，即使它的命运无法改变，但仍然用尽力量去绽放，仿佛存在，就是它的意义一般。
-
-最终，奥运的五环拼凑完毕，会场上方闪过璀璨的烟花。
-
-不过真正让我惊叹的并不是这会场的烟花，而是坐在电脑前看着这个节目的我的片刻的“自失”，和那看完节目之后久久不能散去的胸中的感动。
 
 
