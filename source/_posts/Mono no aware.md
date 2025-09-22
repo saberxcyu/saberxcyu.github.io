@@ -2,7 +2,7 @@
 title: Mono no aware - After the Cherry Blossoms Fall [Philosophy and Aesthetics]
 ---
 
-![Alt text](Mono-no-aware/1.jpg)
+![Alt text](Mono no aware/1.jpg)
 
 Preface
 
@@ -12,7 +12,7 @@ My initial intention in reading this book was simple. I just wanted to understan
 
 As a result of that, I wrote this blog, using plain and simple language, to share my humble understanding of Mono no aware, in the hope that more people can encounter, understand, and appreciate the beauty of this concept. 
 
-![Alt text](Mono-no-aware/2.jpg)
+![Alt text](Mono no aware/2.jpg)
 
 Basically, the "Mono" (物) and "no" (の) in "Mono no aware" (物の哀れ) mean "things" and "of". This simply turns the sentence into something like "the aware (哀れ) of things". So the key to understanding "Mono no aware" is to understand what "aware" (哀れ) means. And according to Yoshinori Onishi, there are five stages of "aware" (哀れ):
 
@@ -57,7 +57,7 @@ As an example of 哀れ at this stage, we can see a scene from "Demi-Gods and Se
 
 ...When Duan Yu first saw the young lady, his ears buzzed, his vision blurred, and his knees gave way — he nearly collapsed. Overwhelmed, he could only cry out, “Fairy Sister, I’ve longed for you so bitterly!” To him, the young woman appeared identical to the jade statue he had adored countless times in his dreams. Confronted with her real presence, he was unable to tell whether he stood in heaven or on earth.
 
-![Alt text](Mono-no-aware/3.jpg)
+![Alt text](Mono no aware/3.jpg)
 
 ---
 
@@ -103,13 +103,13 @@ When I was reading this, I felt the lonely desolation of an April spring day. Th
 
 In "Man's Search for Meaning", it describes a young woman in the concentration camp, knowing she was about to die, pointed at a tree and said "This tree is my only friend in solitude. I often talk to it... I says to me: 'I am here - I am life, eternal life'".
 
-![Alt text](Mono-no-aware/4.jpg)
+![Alt text](Mono no aware/4.jpg)
 
 ---
 
 Now that we understand the five aspects of 哀れ ("aware"), we should have a deeper understanding for Mono no aware. With this, let me take you to the 2020 Tokyo Olympic Opening Ceremony through the lens of Mono no aware, and hopefully you can experience the aesthetics for yourself as well.
 
-![Alt text](Mono-no-aware/5.jpg)
+![Alt text](Mono no aware/5.jpg)
 
 My favorite part in the ceremony was just about at the 33-minute mark, where the wooden Olympic rings were assembled.  There were lots of memes on the Chinese internet about this scene. Some disliked it and called it "building a coffin together". But I see this performance differently, and I think there are two perspectives that one can experience aesthetics from - on the level of ordinary lives (as "Dasein", beings-in-the-world), and on the level of humanity as a whole.
 
@@ -117,25 +117,25 @@ At the very beginning (see picture above), the scene shows only the first level:
 
 Around the 37th minute, after the solo tap-dance, the music shifts slightly, as if something is being carefully nurtured (see the two images below).
 
-![Alt text](Mono-no-aware/6.jpg)
+![Alt text](Mono no aware/6.jpg)
 
-![Alt text](Mono-no-aware/7.jpg)
+![Alt text](Mono no aware/7.jpg)
 
 By about 37:50, a distinctly Japanese female voice enters the soundtrack. For me, this voice revealed the second level - humanity as a whole. At that moment, diverse groups of people came together to push the wooden Olympic rings into the center of the stage. 
 
-![Alt text](Mono-no-aware/8.jpg)
+![Alt text](Mono no aware/8.jpg)
 
 From that voice and from the "humanity" level of the performance, I felt a solemn, tragic air, evoing impermanence, fragility, and the smallness of human life. These elements made me anxious and fearful.
 
 Yet, on screen, the performers showed no sorrow. Smiling, they collaborated joyfully, as if human destiny, however tragic, did not burden them. Like cherry blossoms that must inevitably fall, they blossomed with all their strength - as if mere existence itself were their meaning. 
 
-![Alt text](Mono-no-aware/9.jpg)
+![Alt text](Mono no aware/9.jpg)
 
 Finally, the five wooden rings were completed, and fireworks lit up the sky.
 
-![Alt text](Mono-no-aware/10.jpg)
+![Alt text](Mono no aware/10.jpg)
 
-![Alt text](Mono-no-aware/11.jpg)
+![Alt text](Mono no aware/11.jpg)
 
 What moved me most was not the fireworks, but my own fleeting moment of self-loss as I watched the ceremony, and the deep stirring in my chest that lingered long after the program ended.
 
