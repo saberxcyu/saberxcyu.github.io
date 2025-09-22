@@ -1,11 +1,13 @@
 ---
 title: Mono no aware - After the Cherry Blossoms Fall [Philosophy and Aesthetics]
 date: 2022-03-20
+categories: [blog]
+tags: [philosophy, aesthetics, japanese]
 ---
 
 ![Alt text](Mono no aware/1.jpg)
 
-Inspired by "The Tale of Genji" and the works of Masayuki Kurokawa (Japanese architect and designer) that include "The Eight Aesthetic Senses of Japan" (八つの日本の美意識), "Design and Death" (デザインと死), and "Material and Body" (素材与身体), I developed a growing interest in Japanese philosophy and aesthetics. This interest ultimately led me to Yoshinori Onishi's "Mono no aware - After the Cherry Blossoms Fall" (物哀-樱花落下后), which I read in Wang Xiangyuan's Chinese translation (from the Beijing Normal Univeristy). My appreciation for the concept of "Mono no aware" reached its peak after reading the book.
+Inspired by "The Tale of Genji" and the works of Masayuki Kurokawa (Japanese architect and designer), including "The Eight Aesthetic Senses of Japan" (八つの日本の美意識), "Design and Death" (デザインと死), and "Material and Body" (素材与身体), I developed a growing interest in Japanese philosophy and aesthetics. This interest ultimately led me to Yoshinori Onishi's "Mono no aware - After the Cherry Blossoms Fall" (物哀-樱花落下后), which I read in Wang Xiangyuan's Chinese translation (from the Beijing Normal Univeristy). My appreciation for the concept of "Mono no aware" reached its peak after reading the book.
 
 When I began reading, my intention was simple. I just wanted to understand what "Mono no aware" means, and to experience that aesthetic sensibility for myself. However, reading the book was actually far from simple, mainly due to two reasons. First, the book is full of abstract terminology, logical proofs, and references to Western philosophy. These things are difficult to grasp without background or at least some familiarity with philosophy studies. In addition to this, the Chinese edition is a word-for-word translation from the Japanese thanks to Wang Xiangyuan. While this preserves much of the author's original thoughts, it results in a text that deviates a lot from natural Chinese expressions. 
 
