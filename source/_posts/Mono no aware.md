@@ -15,7 +15,7 @@ Due to these challenges, I decided to write this blog in plain language to share
 
 ![Alt text](Mono no aware/2.jpg)
 
-What is "Mono no Aware?
+**What is "Mono no Aware"?**
 
 The phrase "Mono no aware" (物の哀れ) breaks down simply into three components:
 - Mono (物), which means "things".
@@ -31,8 +31,10 @@ According to Yoshinori Onishi, 哀れ unfolds into the following five different 
 **Stage One. Direction Expression**
 In its most basic form, 哀れ expresses sorrow or pity. It is a pure psychological expression of sadness.
 
+
 **Stage Two. Beyond Specific Emotions**
 Here, the concept broadens from sorrow and pity to enbrace all emotional exclamations. Joy, anger, sadness, excitement - all of these can be expressed by 哀れ. For example, when people are joyful, they would say something like "哀れ! I am so happy!", and when they are angry, they can also be like "哀れ! I am so mad!".
+
 
 **Stage Three. Aesthetic Awareness Through Intuitive Perception and Tranquility**
 This stage marks the transition of 哀れ from pure emotional expressions to aesthetic and philosophical awareness. 哀れ now describes an intuitive perception of beauty that arises in a state of stillness.  
@@ -44,11 +46,12 @@ Sometimes this occurs when strong emotions overwhelms us, producing a momentary 
 **Examples**
 In Jin Yong's Demi-Gods and Semi-Devils (Chapter 12, “Henceforth Obsessed”), Duan Yu (段誉) encounters such a moment:
     
-    When Duan Yu first saw the young lady, his ears buzzed, his vision blurred, and his knees gave way—he nearly collapsed. Overwhelmed, he could only cry out, “Fairy Sister, I’ve longed for you so bitterly!” Confronted with her presence, he could no longer tell whether he stood in heaven or on earth.
+When Duan Yu first saw the young lady, his ears buzzed, his vision blurred, and his knees gave way—he nearly collapsed. Overwhelmed, he could only cry out, “Fairy Sister, I’ve longed for you so bitterly!” Confronted with her presence, he could no longer tell whether he stood in heaven or on earth.
 
 This momentary self-loss in the example is the hint for understanding 哀れ at Stage Three.
 
 ![Alt text](Mono no aware/3.jpg)
+
 
 **Stage Four. Expansion to Life, Existence, and Weltschmerz**
 Building on Stage Three, 哀れ now expands beyond specific objects or experiences to embrace the broader significance of life and existence, with a very particular tone of sorrow. At this level, it touches on metaphysical and mystical dimensions and produces a feeling akin to Weltschmerz (“world pain”) - the sense that life is difficult and filled with sadness.
@@ -68,6 +71,7 @@ From the Tale of Genji:
 - “The sky was overcast, heavy snow filled the air… Night deepened, the unfavorable moon revealed its presence. People rolled up the blinds to gaze afar. Resting on their pillows, they listened to the tolling bells of a mountain temple… A poem was sung: Life is transient, the moon does not remain, I long to follow the moon into death.”
 
 - “As the splendid dance of Ryōō resounded, the music was magnificent. People removed their robes to reward the performers; the scene was lively and joyous… everyone was filled with delight regardless of their class. Yet Lady Murasaki, watching the spectacle, thought of her life nearing its end and was moved by a sense of infinite sorrowful beauty.”
+
 
 **Stage Five. Toward Cosmic Consciousness and Oneness**
 At the final stage, 哀れ is no longer bound to a sorrowful tone. Instead, it becomes a more general aesthetic sensibility that evolves toward a contemplation of Cosmic Consciousness and Oneness, meaning that the 哀れ from other objects can also be felt as it was us experiencing it.
@@ -119,6 +123,7 @@ Finally, when the assembly for the five wooden rings was completed, fireworks li
 What struck me most was not the fireworks at the stadium, but the momentary self-loss I experienced as I watched the ceremony from my computer, and the emotion that lingered long after the program ended.
 
 And this, I realized, was "Mono no aware". How about you?
+
 
 **The End**
 
