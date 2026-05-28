@@ -1,0 +1,10 @@
+<section id="news-page">
+  <ul class="post-list">
+    <% site.data.news.forEach(function(item) { %>
+      <li class="post-item">
+        <span class="meta"><%= item.date %></span>
+        <span><%= item.content %></span>
+      </li>
+    <% }); %>
+  </ul>
+</section>

@@ -1,0 +1,11 @@
+<section id="blogs-page">
+  <span class="h1">Blogs</span>
+  <ul class="post-list">
+    <% site.posts.filter(function(post){ return post.categories.map(function(c){ return c.name; }).indexOf('blog') !== -1; }).sort('date', 'desc').each(function(post){ %>
+      <li class="post-item">
+        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
+        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+      </li>
+    <% }); %>
+  </ul>
+</section>

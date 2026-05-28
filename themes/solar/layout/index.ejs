@@ -1,0 +1,46 @@
+<section id="about">
+  <% if (config.description) { %>
+    <%- markdown(config.description) %>
+  <% } %>
+  <p style="display: inline">
+    <% if (theme.customize.social_links) { %>
+      Feel free to connect with me on
+      <ul id="sociallinks">
+        <% for(var i in theme.customize.social_links) { %>
+          <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>" title="<%= i %>"><i class="fa fa-<%= i %>"></i></a></li>
+        <% } %>
+      </ul>.
+    <% } %>
+  </p>
+</section>
+
+<section id="writing">
+  <span class="h1"><a href="<%- url_for("archives") %>">News</a></span>
+  <ul class="post-list">
+    <% site.data.news.slice(0, 3).forEach(function(item) { %>
+      <li class="post-item">
+        <span class="meta"><%= item.date %></span>
+        <span><%= item.content %></span>
+      </li>
+    <% }); %>
+  </ul>
+  <a href="<%- url_for("news") %>" class="more-link">More</a>
+</section>
+
+<% var blogPosts = site.posts.filter(function(post){ return post.categories.map(function(c){ return c.name; }).indexOf('blog') !== -1; }).sort('date', 'desc'); %>
+<% if (blogPosts.length > 0) { %>
+<section id="blogs">
+  <span class="h1"><a href="<%- url_for("blogs") %>">Blogs</a></span>
+  <ul class="post-list">
+    <% blogPosts.limit(3).each(function(post) { %>
+      <li class="post-item">
+        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
+        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+      </li>
+    <% }); %>
+  </ul>
+  <% if (blogPosts.length > 3) { %>
+    <a href="<%- url_for("blogs") %>" class="more-link">More</a>
+  <% } %>
+</section>
+<% } %>
