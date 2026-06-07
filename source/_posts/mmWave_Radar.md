@@ -18,7 +18,6 @@ When we flip a switch to turn on the light, we essentially close the electric ci
 
 This causes the filament's metal atoms to vibrate (accelerate randomly in different directions), which releases electromagnetic waves that travel through space. 
 
-![Alt text](lightbulb.gif)
   <figure>
     <img src="lightbulb.gif" alt="A light bulb emitting EM waves">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -36,7 +35,6 @@ These electromagnetic waves we produce for the radar have much longer $\lambda$,
 
 The animation below shows how these electromagnetic waves are generated. 
 
-![Alt text](em_radiation.gif)
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -46,7 +44,6 @@ The animation below shows how these electromagnetic waves are generated.
 
 And... Let's zoom in on one of them to see their wavy nature.
 
-![Alt text](em_wave_zoom.png)
   <figure>
     <img src="em_wave_zoom.png" alt="A zoomed-in view on one of the EM rays.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -73,7 +70,6 @@ What??? What are you talking about? And how the hack did we go from talking abou
 
 Do you remember this guy? The one highlighted with a red circle at the bottom. Looks like you not paying attention in the classroom.
 
-![Alt text](euclid.png)
   <figure>
     <img src="euclid.png" alt="The School of Athens with Euclid highlighted.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -87,7 +83,6 @@ Using propositions 1, 9, 10 from the book he wrote, we can draw two circles to m
 
 Here are the two right-angled triangles I draw using his method:
 
-![Alt text](euclid_construction.png)
   <figure>
     <img src="euclid_construction.png" alt="Drawing two right-angled triangles using Euclid's propositition 1, 9, 10.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -99,7 +94,6 @@ Let's look at the one on the left. The blue shaded one. What is the ratio betwee
 
 Ah, yes, you are right, maybe we should take it out from that diagram so we can examine more closely. 
 
-![Alt text](triangle_only.png)
   <figure>
     <img src="triangle_only.png" alt="The blue shaded right-angled triangle alone.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -113,7 +107,6 @@ If r is 1, say the cricles we draw were unit circles, then y is just equal to si
 
 Now, let's vary the angle $\theta$ from 0 degree to 90 degrees. What do we get for x and y? 
 
-![Alt text](q1_quadrant.png)
   <figure>
     <img src="q1_quadrant.png" alt="Varying $\theta$ from 0 deg to 360 to draw a group of points using (x, y) coordinates.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -135,7 +128,6 @@ OK, so now we can use the sine and cosine functions (and the circle it makes) as
 
 I made a visual below, using a slow frequency so you can follow the points more easily. 
 
-![Alt text](phasor_animation.gif)
   <figure>
     <img src="phasor_animation.gif" alt="Varying $\theta$ as a function of time and drawing out the points on the circle using (x, y) coordinates.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -149,7 +141,6 @@ Now let's do something crazy. So far, the circle is drawn on a 2-dimensional pla
 
 I will show you a 3D (time, x, y) visual here: 
 
-![Alt text](helix_3d.png)
   <figure>
     <img src="helix_3d.png" alt="Adding one more dimension (time) to visualize the circle.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -186,7 +177,6 @@ One property of the circle, which we kinda mentioned above, is that it repeats i
 
 Let's have a look at Figure 2 again from above. This shows how electromagnetic waves are generated in the radar by oscillating the voltage up and down.
 
-![Alt text](em_radiation.gif)
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
@@ -198,7 +188,6 @@ For simplicity, let's assume the voltage in the animation oscillates from +10V t
 
 We can then represent the event clearly using a straight vertical line that looks like this (see, it is not only the circle):
 
-![Alt text](voltage_oscillation.gif)
   <figure>
     <img src="voltage_oscillation.gif" alt="Oscillating voltage represented on a straight line. ">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
