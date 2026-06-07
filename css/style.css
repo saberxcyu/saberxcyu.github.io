@@ -1025,7 +1025,8 @@ body {
     text-align: left;
   }
 }
-#writing a.more-link {
+#writing a.more-link,
+#blogs a.more-link {
   display: inline-block;
   margin-top: 0.5rem;
   text-decoration: none;
@@ -1033,7 +1034,8 @@ body {
   background-image: none;
   color: #ffa500;
 }
-#writing a.more-link:hover {
+#writing a.more-link:hover,
+#blogs a.more-link:hover {
   background: none;
   background-image: none;
 }
