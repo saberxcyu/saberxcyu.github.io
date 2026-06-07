@@ -22,7 +22,7 @@
 <meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/phasor_animation.gif">
 <meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/helix_3d.png">
 <meta property="article:published_time" content="2026-06-06T04:00:00.000Z">
-<meta property="article:modified_time" content="2026-06-07T01:57:04.372Z">
+<meta property="article:modified_time" content="2026-06-07T02:23:41.960Z">
 <meta property="article:author" content="Saber X. Yu">
 <meta property="article:tag" content="eletrical engineering">
 <meta name="twitter:card" content="summary">
@@ -216,7 +216,7 @@
 <p>Now, let’s vary the angle $$\theta$$ from 0 degree to 90 degrees. What do we get for x and y? </p>
 <p><img src="/2026/06/06/mmWave_Radar/q1_quadrant.png" alt="Alt text"></p>
 <p>Indeed, we will get a group of points, with each one represented in a coordinate system of (x, y). As you might have observed, these points all land on the path of the circle’s arc. And it is not hard to see that if $$\theta$$ is varied from 0 degree all the way to 360 degrees, we will get a bunch of x and y’s, which we can then use to make up a thing that looks like a circle. (this is also why Euclid can get to the right-angled triangles from two circles in the first place, the math is just defined so coherently)</p>
-<p>On top of that, the fact that we go back to the first point when $$\theta$$ becomes 360 degress, also gives the sine and cosine functions a very nice property to allow them to be used to describe any periodic events (such as the osscilation of electrons driven by the changing voltage in the radar). </p>
+<p>On top of that, the fact that we can go back to the first point when $$\theta$$ becomes 360 degress, also gives the sine and cosine functions a very nice property to allow them to be used for describing periodic events (such as the osscilation of electrons driven by the changing voltage in the radar). </p>
 <p>But there is one thing missing. Time. Our events vary with time. </p>
 <p>Actually, the sine and cosine functions have already thought of this and made room for it! Indeed, $$\theta$$ can be expressed as a function of time, which turns the sine function into sin(wt), and the cosine function into cos(wt), where w is the frequency (in rad&#x2F;sec). (side note: since one circle is 2$\pi$, to relate w with a frequency in Hz (cycles&#x2F;sec), we can do w &#x3D; 2$\pi$f.)</p>
 <p>OK, so now we can use the sine and cosine functions (and the circle it makes) as a function of time. What will that look like? </p>
