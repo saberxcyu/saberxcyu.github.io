@@ -219,6 +219,15 @@ How do you know which $\tau$ is right? You will need the second coordinate, x(t)
 
 One tricky thing to note is that, on the circle, only the y axis has actual meanings, because it represents the voltage readings during oscillation, the x axis is actually meaningless. To get a reading for x, so that we can solve x(t) and y(t) together for $\tau$, we actually need to make it up in the radar by manipulating the sine singal from the y axis in the beginning and make that into a cosine one. 
 
+Now let's see that same circle again from Figure 8. Is it easier to read the signal now?
+
+  <figure>
+    <img src="circle_voltage.gif" alt="Circle relabeled.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 11: The same circle from Figure 8 but with y-axis relabeled as voltage.
+    </figcaption>
+  </figure>
+
 OK~ This is it for section 3. How does it feel? Hopefully by now you understand how and why a circle is used to represent the radar signal? And perhaps how to read the circle (but does it even exists in the first place - oh well)?
 
 Next, we will talk about the radars! Very exciting stuffs!
