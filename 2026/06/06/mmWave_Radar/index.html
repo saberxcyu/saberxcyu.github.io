@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Hey! I want to take you on a tour that explains mmWave radars. It is supposed to be fun, and I plan on first taking you back to high school physics and math. Trust me - they are essential. Bear with m">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FMCW mmWave Radar">
+<meta property="og:url" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/index.html">
+<meta property="og:site_name" content="Saber X. Yu">
+<meta property="og:description" content="Hey! I want to take you on a tour that explains mmWave radars. It is supposed to be fun, and I plan on first taking you back to high school physics and math. Trust me - they are essential. Bear with m">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/em_radiation.gif">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/em_wave_zoom.png">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/euclid.png">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/euclid_construction.png">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/triangle_only.png">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/q1_quadrant.png">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/phasor_animation.gif">
+<meta property="og:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/helix_3d.png">
+<meta property="article:published_time" content="2026-06-06T04:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-07T01:57:04.372Z">
+<meta property="article:author" content="Saber X. Yu">
+<meta property="article:tag" content="eletrical engineering">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://saberxcyu.github.io/2026/06/06/mmWave_Radar/em_radiation.gif">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/saber.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/saber.ico" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/saber.ico">
+          
+        
+    
+    <!-- title -->
+    <title>FMCW mmWave Radar</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+
+    
+<link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    
+<script src="/lib/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <div class="banner">
+<div id="blogtitel" class="blogtitel">Saber X. Yu</div>
+<ul id="wrapper" class="wrapper">
+  <div class="sun">
+    <div class="star"></div>
+  </div>
+  <div class="mercury">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="venus">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="earth">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="mars">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="jupiter">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+</ul>
+</div>
+
+    <div class="background">
+      
+        <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/blogs/">Blogs</a></li>
+         
+          <li><a href="/news/">News</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2026/05/15/Hierarchy/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="/"><i class="fa fa-home" aria-hidden="true" onmouseover='$("#i-home").toggle();' onmouseout='$("#i-home").toggle();'></i></a></li>
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-home" class="info" style="display:none;">Home</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&text=FMCW mmWave Radar"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&is_video=false&description=FMCW mmWave Radar"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=FMCW mmWave Radar&body=Check out this article: https://saberxcyu.github.io/2026/06/06/mmWave_Radar/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&name=FMCW mmWave Radar&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Section-1-Electromagnetic-Waves"><span class="toc-number">1.</span> <span class="toc-text">Section 1: Electromagnetic Waves</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Section-2-The-Circle"><span class="toc-number">2.</span> <span class="toc-text">Section 2: The Circle</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+      
+      <div class="content index width mx-auto px2 my4">
+          
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        FMCW mmWave Radar
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Saber X. Yu</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2026-06-06T04:00:00.000Z" itemprop="datePublished">2026-06-06</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/eletrical-engineering/" rel="tag">eletrical engineering</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Hey! I want to take you on a tour that explains mmWave radars. It is supposed to be fun, and I plan on first taking you back to high school physics and math. Trust me - they are essential. Bear with me, annnnnnnd, let’s go!</p>
+<h2 id="Section-1-Electromagnetic-Waves"><a href="#Section-1-Electromagnetic-Waves" class="headerlink" title="Section 1: Electromagnetic Waves"></a>Section 1: Electromagnetic Waves</h2><p>We will begin with the light bulb, something that we are all familiar with (hopefully?). When we flip the light switch, we essentially close the electric circuit for the light bulb, and the power source creates a voltage that enforces an eletectric field that shoots the electrons onto the bulb’s filament. This causes the filament’s metal atoms to vibrate (accelerate in different directions), which releases electromagnetic waves that travel through space. </p>
+<p>When these electromagnetic waves hit an object and get reflected into our eyes, we see the object. The electromagnetic waves that are created this way have relatively high energy and short wave lengths ($\lambda$). Their ($\lambda$) is within the range of 380-760 nano meters ($$10^{-9} \text{ m}$$). Also, since they are visible to our eyes, we call them visible lights. </p>
+<p>The radar works similarly. </p>
+<p>In the radar, we use a voltage to generate an electric field that accelerate electrons, but instead of letting the electrons vibrate freely like in a light bulb, which produces uncontrolled electricmagnetic waves, we move them up and down in an ordered manner, to produce electricmagnetic waves that are controlled. </p>
+<p>These electromagnetic waves we produce for the radar have much longer $\lambda$, usually around 5 millimeters ish ($$10^{-3} \text{ m}$$). Electromagnetic waves at this wave length carry less energy and we cannot see them with our eyes. They are called mmWaves or microwaves (yes the microwave in your home uses the same stuff to heat up your food).</p>
+<p>The animation below shows how these mmWaves are generated. </p>
+<p><img src="/2026/06/06/mmWave_Radar/em_radiation.gif" alt="Alt text"></p>
+<p>These mmWaves are essentially the same stuff as of lights, just more spread out (longer $\lambda$) and carry lower energy. Whenever I think of mmWaves, I picture them in my head just as visible light rays. This mind model makes me feel more confortable since I am more faimiliar with visible lights, but if we zoom all the way in on one of these rays, and look closely, we will see that they are indeed waves, just as their name suggests.</p>
+<p>A visual is provided to understand the wavy nature of these electromagnetic rays here:</p>
+<p><img src="/2026/06/06/mmWave_Radar/em_wave_zoom.png" alt="Alt text"></p>
+<p>So far so good? This wraps up section 1. I think it is not too bad. I will leave you with a fun fact below, then let’s dive into section 2~</p>
+<p>Fun Fact: there are electromagnetic waves that have very very short $\lambda$, much shorter than visible lights. One example is the Gamma ray. These rays are usually bad for our health because they carry so much energy that they can kill or mutate our cells, but sometimes they are utilized to kill cancer cells as in a gamma knife operation. Its $\lambda$ is less than 0.01 nano meters. It is going to need a very brutal vibration to achieve that kind of electromagnetic waves.</p>
+<h2 id="Section-2-The-Circle"><a href="#Section-2-The-Circle" class="headerlink" title="Section 2: The Circle"></a>Section 2: The Circle</h2><p>What the hell is a circle, if you ask. Then I must answer, seriously, that there is no such thing as a circle. </p>
+<p>What??? What are you talking about? And how the hack did we go from talking about electromagnetic waves to talking about circles? I know I know. Bear with me :).</p>
+<p>Do you remember this guy? The one highlighted with a red circle at the bottom.</p>
+<p><img src="/2026/06/06/mmWave_Radar/euclid.png" alt="Alt text"></p>
+<p>It is Euclid. </p>
+<p>Using propositions 1, 9, 10 from the book he wrote, we can draw two circles to make one equilateral triangle, then split it in half to get two right angled triangles (with proofs!). </p>
+<p>Here are the two right-angled triangles I draw using his method:</p>
+<p><img src="/2026/06/06/mmWave_Radar/euclid_construction.png" alt="Alt text"></p>
+<p>Look at the one on the left. The blue shaded one. What is the ratio between the slope (r) and the verticle side (y)? </p>
+<p>Let’s take it out so we can see it more clearly. </p>
+<p><img src="/2026/06/06/mmWave_Radar/triangle_only.png" alt="Alt text"></p>
+<p>Ah ha, this ratio for the right-angled triangle is defined by the sine function sin($$\theta$$) &#x3D; y &#x2F; r. </p>
+<p>If r is 1, say the cricles we draw using Euclid’s method were unit circles, then y is just equal to sin($$\theta$$). And x is just cos($$\theta$$). </p>
+<p>Now, let’s vary the angle $$\theta$$ from 0 degree to 90 degrees. What do we get for x and y? </p>
+<p><img src="/2026/06/06/mmWave_Radar/q1_quadrant.png" alt="Alt text"></p>
+<p>Indeed, we will get a group of points, with each one represented in a coordinate system of (x, y). As you might have observed, these points all land on the path of the circle’s arc. And it is not hard to see that if $$\theta$$ is varied from 0 degree all the way to 360 degrees, we will get a bunch of x and y’s, which we can then use to make up a thing that looks like a circle. (this is also why Euclid can get to the right-angled triangles from two circles in the first place, the math is just defined so coherently)</p>
+<p>On top of that, the fact that we go back to the first point when $$\theta$$ becomes 360 degress, also gives the sine and cosine functions a very nice property to allow them to be used to describe any periodic events (such as the osscilation of electrons driven by the changing voltage in the radar). </p>
+<p>But there is one thing missing. Time. Our events vary with time. </p>
+<p>Actually, the sine and cosine functions have already thought of this and made room for it! Indeed, $$\theta$$ can be expressed as a function of time, which turns the sine function into sin(wt), and the cosine function into cos(wt), where w is the frequency (in rad&#x2F;sec). (side note: since one circle is 2$\pi$, to relate w with a frequency in Hz (cycles&#x2F;sec), we can do w &#x3D; 2$\pi$f.)</p>
+<p>OK, so now we can use the sine and cosine functions (and the circle it makes) as a function of time. What will that look like? </p>
+<p>I made a visual below, using a slow frequency so you can follow the points more easily. </p>
+<p><img src="/2026/06/06/mmWave_Radar/phasor_animation.gif" alt="Alt text"></p>
+<p>See how the sine and cosine functions provide a list of (x, y) coordinates, which you can use to trace the circle on the left side in like 10 seconds? See how the theta is changing with time? Pretty cool eh?</p>
+<p>Now let’s do something crazy. So far, the circle is drawn on a 2-dimensional plane. What if we extends it to a 3-dimensional space? Let’s view this thing together with time. </p>
+<p>I will show you a 3D (time, x, y) visual here: </p>
+<p><img src="/2026/06/06/mmWave_Radar/helix_3d.png" alt="Alt text"></p>
+<p>The circle became something like a sprial. Now when theta becomes 360 degrees, the point does not land on the origin anymore, because time has lapsed. The circle has been expanded via the time axis. </p>
+<p>Interestingly, when we project the spiral on the yt plane, we will get our sine function back. And if we do that to the xt plane, we will get our cosine function back. </p>
+<p>So essentially, what we have done here, is that we have represented the sprial using the coordinate (x, y) using sin(wt) and cos(wt), just like how a point on a 2D plane is expressed by (x, y). </p>
+<p>And indeed, this is written formally in math as Z(t) &#x3D; x(t) + j*y(t), where Z is the spiral (it is our event, or we can call it our signal), and the j is there in front of the y component to indicate that the y component is on a different plane. </p>
+<p>These coordinates, x(t), and y(t), are actually tracked separately in the radar and fused together later to reconstruct the signal. </p>
+<p>This will wrap up our section 2. Feeling cool?</p>
+<p>And oh yeah, we didn’t even find time to talk more about whether the circle exists. Maybe you can think about that on your own time. </p>
+<p>Do you believe the circle exists, or there is no such thing as the circle - pretty much just a bunch of points that follow the sine and cosine function and repeat in locations? </p>
+
+  </div>
+</article>
+
+
+
+      </div>
+      
+       <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/blogs/">Blogs</a></li>
+         
+          <li><a href="/news/">News</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Section-1-Electromagnetic-Waves"><span class="toc-number">1.</span> <span class="toc-text">Section 1: Electromagnetic Waves</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Section-2-The-Circle"><span class="toc-number">2.</span> <span class="toc-text">Section 2: The Circle</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&text=FMCW mmWave Radar"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&is_video=false&description=FMCW mmWave Radar"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=FMCW mmWave Radar&body=Check out this article: https://saberxcyu.github.io/2026/06/06/mmWave_Radar/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&title=FMCW mmWave Radar"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://saberxcyu.github.io/2026/06/06/mmWave_Radar/&name=FMCW mmWave Radar&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+      
+      <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2026 Saber X. Yu
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/blogs/">Blogs</a></li>
+         
+          <li><a href="/news/">News</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+      
+<script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- Google Analytics -->
+
+<!-- Disqus Comments -->
+
+
+    </div>
+</body>
+</html>
