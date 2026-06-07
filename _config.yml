@@ -107,3 +107,11 @@ deploy:
   type: git
   repo: git@github.com:saberxcyu/saberxcyu.github.io.git
   branch: main
+
+# Math rendering
+mathjax:
+  tags: none        # or 'ams', 'all'
+  single_dollars: true   # enable $...$ inline syntax
+  cjk_width: 0.9
+  normal_width: 0.6
+
