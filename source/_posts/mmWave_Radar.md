@@ -68,7 +68,7 @@ Now, let's vary the angle $$\theta$$ from 0 degree to 90 degrees. What do we get
 
 Indeed, we will get a group of points, with each one represented in a coordinate system of (x, y). As you might have observed, these points all land on the path of the circle's arc. And it is not hard to see that if $$\theta$$ is varied from 0 degree all the way to 360 degrees, we will get a bunch of x and y's, which we can then use to make up a thing that looks like a circle. (this is also why Euclid can get to the right-angled triangles from two circles in the first place, the math is just defined so coherently)
 
-On top of that, the fact that we go back to the first point when $$\theta$$ becomes 360 degress, also gives the sine and cosine functions a very nice property to allow them to be used to describe any periodic events (such as the osscilation of electrons driven by the changing voltage in the radar). 
+On top of that, the fact that we can go back to the first point when $$\theta$$ becomes 360 degress, also gives the sine and cosine functions a very nice property to allow them to be used for describing periodic events (such as the osscilation of electrons driven by the changing voltage in the radar). 
 
 But there is one thing missing. Time. Our events vary with time. 
 
