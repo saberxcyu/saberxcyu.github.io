@@ -33,7 +33,7 @@ In the radar, we use a voltage to generate an electric field that accelerate ele
 
 These electromagnetic waves we produce for the radar have much longer $\lambda$, usually around 5 millimeters ish ($10^{-3}\ \text{m}$). Electromagnetic waves at this level carry less energy and we cannot see them with our eyes. They are called mmWaves.
 
-The animation below shows how these electromagnetic waves are generated. 
+The animation below shows how these electromagnetic waves can be generated. 
 
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
@@ -42,7 +42,7 @@ The animation below shows how these electromagnetic waves are generated.
     </figcaption>
   </figure>
 
-And... Let's zoom in on one of them to see their wavy nature.
+And... Let's zoom in on some of them to see their wavy nature. Also note that the electromagnetic waves produced this way have less amplitude A along some dircetions. 
 
   <figure>
     <img src="em_wave_zoom.png" alt="A zoomed-in view on one of the EM rays.">
@@ -51,7 +51,7 @@ And... Let's zoom in on one of them to see their wavy nature.
     </figcaption>
   </figure>
 
-The mmWave we generate this way is essentially the same matter as visible lights, just more spread out (longer $\lambda$) and carries lower energy. 
+At the end of the day, the mmWave we generate here is essentially the same matter as visible lights, just more spread out (longer $\lambda$) and carries lower energy. 
 
 Whenever I think of electromagnetic waves, I picture them in my head just as visible light rays. This mind model makes me feel more comfortable since I am more faimiliar with visible lights. 
 
@@ -197,7 +197,7 @@ We can then represent the event clearly using a straight vertical line that look
 
 Notice 2 things. 
 
-First, see how I have normalized the +10V and -10V into a range that goes from +Max to -Max? We can actually describe these boundaries with +1 and -1.
+First, see how I have normalized the +10V and -10V into a range that goes from +Max to -Max? We can describe these boundaries with +1 and -1 for now.
 
 If we do that, it will be not so hard to see, that the verticle line is just the y-component in the unit circle, which is governed by this relationship: Y(t) = Voltage(t) = $\sin(\omega t)$.
 
