@@ -6,13 +6,13 @@ categories: [blog]
 tags: [eletrical engineering]
 ---
 
-Hey! I want to take you on a taur that explains FMCW (Frequency Modulated Continuous Wave) mmWave radars. It is supposed to be fun, and I plan on first taking you back to high school physics and then elementary school math. 
+Hey! I want to take you on a tour that explains FMCW (Frequency Modulated Continuous Wave) mmWave radars. It is supposed to be fun, and I plan on first taking you back to high school physics and then elementary school math. 
 
 Trust me - they are essential. Bear with me, annnnnnnd, let's go!
 
 ## Section 1: Electromagnetic Waves
 
-We will begin with the light bulb, something we are all familiar with. 
+We will begin with the light bulb, something we all familiar with. 
 
 When we flip a switch to turn on the light, we essentially close the electric circuit for the light bulb. The power source creates a voltage that generates an eletectric field that drives electrons towards the bulb's filament. 
 
@@ -31,9 +31,9 @@ The radar works very similarly.
 
 In the radar, we also use a voltage to move electrons in the conductor, but instead of letting the electrons vibrate freely like the atoms in the light bulb (which produces random electromagnetic waves that are good enough for brightening the room but not good enough for analysis), we oscillate them up and down to produce controlled waves. 
 
-The electromagnetic waves we produce this way have much longer $\lambda$, usually around 5 millimeters ish (this depends on the frequency of the voltage oscillation). So we call them mmWaves.
+The electromagnetic waves we produce this way have much longer $\lambda$, usually around 5 millimeters (the wavelength we get depends on the frequency of the voltage oscillation). So they are called mmWaves.
 
-The animation below shows how these electromagnetic waves are generated. Note how some of the waves appear darker. That is because the electromagnetic waves produced this way have lower intensity along some directions due to the geometry of the oscillation.
+The animation below shows how these electromagnetic waves are generated. Note how some of the waves appear darker. That is because the electromagnetic waves produced this way have lower intensity along some directions due to the geometry of the oscillation. (ps. there are also some special radars that transmit the same intensity of electromagnetic waves in all direction - those are called isotropic radars.)
 
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
@@ -44,20 +44,22 @@ The animation below shows how these electromagnetic waves are generated. Note ho
 
 To get a closer look at some of these waves, let's zoom right in on some of them! 
 
-See how they are wavy as their name suggests. And note the amplitude difference as well.
-
   <figure>
-    <img src="em_wave_zoom.png" alt="A zoomed-in view on one of the EM rays.">
+    <img src="em_wave_zoom.png" alt="A zoomed-in view on some of the EM rays.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 3: A zoomed-in view on one of the electromagnetic rays.
+      Figure 3: A zoomed-in view on some of the electromagnetic rays.
     </figcaption>
   </figure>
 
-Well, at the end of the day, the mmWave we generate this way is essentially the same matter as visible lights. They are just more spread out (longer $\lambda$) and carries lower energy. 
+See how wavy these rays are in their nature? Also note the amplitude difference across directions.
 
-So whenever I think of mmWaves or electromagnetic waves, I just picture them in my head just as visible light rays. I feel more comfortable this way since I am more faimiliar with visible lights. 
+At the end of the day, these mmWaves are essentially the same matter as visible lights. They are just more spread out (longer $\lambda$) and carry lower energy. 
 
-So far so good? This will wrap up section 1. 
+So whenever I think of mmWaves or electromagnetic waves, I just picture them in my head as visible light rays. This is a nicer model for me since I am more faimiliar with visible lights. 
+
+So far so good? 
+
+This will wrap up section 1. 
 
 I think it is not too bad. Right? I will leave you with a fun fact below, then let's dive into section 2~
 
@@ -173,9 +175,9 @@ And oh yeah, we didn't even find time to talk more about whether the circle exis
 Do you believe the circle exists, or is it pretty much just a bunch of points that follow the sine and cosine function and repeat in locations? 
 
 
-## Section 3: Why Use a Circle to Represent Radar Signals
+## Section 3: Why Use a Circle to Represent Oscillating Voltage
 
-Welcome to section 3. We will go over why the circle (or the spiral, if extended along time axis) is used to describe our radar signals. 
+Welcome to section 3. We will go over why the circle (or the spiral, if extended along time axis) is used to describe our event: voltage oscillation. 
 
 One property of the circle, which we kinda mentioned above, is that it repeats itself every 360 degrees, so you can see that there is a sense of periodicity already in there. But this is not the only way to represent peridic events. 
 
@@ -203,38 +205,141 @@ Notice 2 things.
 
 First, see how I have normalized the +10V and -10V into a range that goes from +Max to -Max? We can even describe these boundaries with +1 and -1.
 
-Indeed, if we do that, it will be not so hard to see, that the verticle line is just identical to the y-component in the unit circle, which is governed by this relationship: Y(t) = $\sin(\omega t)$, or Voltage(t) = $\sin(\omega t)$.
+In fact, if we do that, it will become very obvious that the verticle line is just identical to the y-component in the unit circle, which is governed by this relationship: Y(t) = $\sin(\omega t)$, or Voltage(t) = $\sin(\omega t)$.
 
-Hopefully by this point (following the way I explain things), you realize the signal in the radar almost has nothing to do with the electromagnetic waves? In my perspective, the radar signals are completely made up by the voltage oscillation. Although the waves carry the same signal too, I tend to think of them as some kind of transformation that gets the voltage signal into a medium that can be sent into space and interact with things. 
+With this formula, we can make some observations. Since the voltage can be measured at any given time t, they are both considered known, and $\omega$ is known from how fast we oscillate the voltage, so basically everything is known and well-considered here. Great. That means this equation alone already perfectly describes the event of an oscilating voltage. Sure. 
 
-Anyway! So now we have Voltage(t) = $\sin(\omega t)$. In this equation, the voltage can be measured, and $\omega$ and t are known. So it is a perfect equation to describe the oscillating voltage. For sure. 
+But what if the signal has a phase shift that makes it look something like this?
 
-But what if the signal has a phase shift, that makes it look something like this: Voltage(t) = $\sin(\omega(t-\tau))$ ? Given V, $\omega$, and t, can you solve for $\tau$? 
+Voltage(t) = $\sin(\omega(t-\tau))$, where $\tau$ stands for a time delay.
 
-This is exactly what we get, when the signals are transmitted out to space, travel for a while, and then bounced back to the radar's receiver. The returned signal in this case are shifted by a time difference $\tau$.
+In fact, this is exactly we will get with the radar when the transmitted electromagnetic waves are later on received. 
 
-But there is a problem, if you attempt to solve that equation for $\tau$, you will notice the sine function will give you two results for $\tau$. But how do you know which answer for $\tau$ is right?
+Now given V, $\omega$, and t, can you solve for $\tau$? 
 
-That's when you need the second coordinate, x(t), which gives you x(t) = $\cos(\omega(t-\tau))$. 
+And yeah, that is the problem, if you attempt to solve for $\tau$, you will notice the sine function will give you two results that are both mathmatically correct. This can also be visualized on the sine curve.
 
-If you solve this together with your Voltage(t) equation above, you will get four answers, out of which, two of them you will find matching, meaning that this number is the true $\tau$ that you are looking for, which satisfy both equations. 
+  <figure>
+    <img src="sine_ambiguity.png" alt="Two times are associated with one given voltage.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 11: Two times are associated with one given voltage.
+    </figcaption>
+  </figure>
 
-The uncertainty about the phase shift, is exactly why you need two coordinates, thus a circle. 
+That's when you need the second coordinate x(t) which gives you:
 
-One tricky thing to note is that, on the circle, only the y axis has actual meanings, because it represents the voltage readings during our oscillation, the x axis is actually meaningless. 
+x(t) = $\cos(\omega(t-\tau))$
 
-To get a reading for x, so that we can solve x(t) and y(t) together for $\tau$, we actually need to make it up in the radar by manipulating the sine singal from the y axis in the beginning and shift that into a cosine one. 
+Now if we solve both Voltage(t) and x(t) together for $\tau$, we shall get four answers (2 results for each equation), out of which, exactly two of them you will find matching, indicating the true $\tau$ that satisfies both equations. 
 
-Now let's see that same circle again from Figure 8. Does it make it a little bit easier to read?
+And given both Voltage(t) and x(t), technically, we will get a circle. And this is why the circle is used to represent the oscillating voltage.
+
+Now let's see that same circle again from Figure 8 but actually use it to represent our event. Do you feel more comfortable reading this graph now?
 
   <figure>
     <img src="circle_voltage.gif" alt="Circle relabeled.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 11: The same circle from Figure 8 but with y-axis relabeled as voltage.
+      Figure 12: The same circle from Figure 8 but with y-axis relabeled as voltage.
     </figcaption>
   </figure>
 
-OK! This is it for section 3. How does it feel? Hopefully by now you understand why a circle is used to represent the radar signal. (but does the circle even exist in the first place? - oh well.)
+I also want to guide your attention to the labels of the y and x-axis above. Notice how only the y-axis has meanings (voltage) and the x-axis is actually meaningless?
 
-## Section 4: I have not decided what to write yet
+This is completely normal. In fact, in the radar, x(t) is actually manipulated from the sine function by shifting it into a cosine one. Its primary role is to rule out the ambiguity from using just the sine function alone.
+
+OK! This is it for section 3. How does it feel? 
+
+Hopefully by now you understand why the circle is used to represent the radar signal. (but does it even exist in the first place? - oh boy.)
+
+## Section 4: 
+
+Welcome to chapter 4. So far we have understood that mmWaves are electromagnetic waves generated by an oscillating voltage which can be described using a circle. In this section, we will discuss the oscillating voltage together with the electromagnetic waves, to understand more in depth how this system works. 
+
+Let's have a look at our old friend again, Figure 2:
+
+  <figure>
+    <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 2: Oscillating voltage generates eletromagnetic waves.
+    </figcaption>
+  </figure>
+
+In section 1, we briefly talked about how these electromagnetic waves have varied intensities in different directions.
+
+This intensity difference is governed by the geometry of the oscillating voltage. If the oscillation takes place along the z-axis, then the electromagnetic waves released towards the x and y-axis would have maximum amplitude, and along the z-axis their amplitude will be zero. Everything else going from "parallel to oscillation" to "perpendicular to oscillation" will be in between zero and max amplitude. 
+
+In 3D, this will look something like:
+
+  <figure>
+    <img src="em_radiation_3d.gif" alt="Oscillating voltage generates electromagnetic waves (3D).">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 13: Oscillating voltage generates eletromagnetic waves (3D).
+    </figcaption>
+  </figure>
+
+This animation can be understood in two ways. 
+
+First, since the intensity is max in directions perpendicular to oscillation, and is zero in the direction of oscillation, if we draw the points out (every intensity value per x, y, z), we will get some kind of intensity mapping. This is called the radiation pattern in the literature. (see the donut shape formed in the end)
+
+Second, because the electromagnetic waves can be absorbed and reflected in air (due to small partcicles inside), their amplitude decreases as they travel more distance. So in a sense, you can also picture this animation as if the waves that have the strongest initial amplitude can travel the furthest distance before their amplitude falls to zero. (this is indicated by the rays shooting outwards center)
+
+We will come back to discuss the amplitude of the electromagnetic waves later. 
+
+Right now, let's focus on the wavelength of the electromagnetic waves first. Since we got ourselves familiarized with the circle, let's just use the circle to represent the oscillation from the figure above.
+
+  <figure>
+    <img src="em_radiation_circle.gif" alt="Eletromagnetic waves generated by the circle.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 14: Eletromagnetic waves generated by the circle.
+    </figcaption>
+  </figure>
+
+Now, let us zoom in to some of these electromagnetic waves generated by the circle, like we did for Figure 3.
+
+More specifically, let's look at the one along the x-axis with maximum intensity. 
+
+  <figure>
+    <img src="wave_from_circle.gif" alt="A zoomed-in view of eletromagnetic waves generated by the circle.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 15: A zoomed-in view of eletromagnetic waves generated by the circle.
+    </figcaption>
+  </figure>
+
+Note what is shown here on the right is the actual electromagnetic wave. Not a sine function, which is one axis of the circle.
+
+Now what is going to happen if we speed up the voltage oscillation to 2x the speed?
+
+Let's visualize it!
+
+  <figure>
+    <img src="wave_from_circle_2x.gif" alt="A zoomed-in view of eletromagnetic waves generated by the circle (2x speed).">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 16: A zoomed-in view of eletromagnetic waves generated by the circle (2x speed).
+    </figcaption>
+  </figure>
+
+Mmmm... It seems like the wavelength of the electromagnetic waves is dependent on the speed of the cirlce that represents the oscillation frequency.
+
+Intersting!
+
+What if we use with a smaller circle (less voltage during oscillation)? 
+
+  <figure>
+    <img src="wave_from_circle_2x_halfA.gif" alt="A zoomed-in view of eletromagnetic waves generated by the circle (2x speed).">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 17: A zoomed-in view of eletromagnetic waves generated by the circle (2x speed).
+    </figcaption>
+  </figure>
+
+Oh... Now even amplitude of the strongest wave along the perpendicular direction is only half of that from before, just like the waves in some of these other weaker directions.  
+
+With this poor starting momentum, the electromagnetic wave will travel less distance before they turn into zero amplitude.
+
+In fact, these waves will be no use to us well before they get to absolutely zero amplitude -> as long as their amplitude is lower than most of the noisy signals that exist around them in the enviornment, they will offer no use to us because the low Singal-to-Noise ratio will make it impossible to distinguish the waves from noise.
+
+
+
+
+
+
 
