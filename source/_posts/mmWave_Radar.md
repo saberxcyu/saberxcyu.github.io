@@ -380,7 +380,22 @@ Let us kick off this section with a 2D version of Figure 14 - under the context 
     </figcaption>
   </figure>
 
-In this visualization, we are looking into the pattern from the front (where the y-axis was) and are projecting the donut from Figure 14 on to the xz-plane. 
+Here we are looking into the donut from Figure 14 from the front direction (where the y-axis was) and are projecting the pattern on to the xz-plane. 
+
+To make the electromagnetic waves stronger, one convenient way is to ultilize a reflective material to re-direct those in one direction towards the other. This way although in one direction we get no signals at all, the other direction gets double of it.
+
+This can be illustrated as follows:
+
+  <figure>
+    <img src="reflector_2d.gif" alt="A reflector producing stronger electromagnetic waves in one direction.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 18: A reflector producing stronger electromagnetic waves in one direction.
+    </figcaption>
+  </figure>
+
+
+
+
 
 
 
