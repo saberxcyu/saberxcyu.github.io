@@ -363,13 +363,13 @@ The lower voltage has caused the strongest wave (along the perpendicular directi
 
 With the poor starting momentum, this wave will not likely make it too far before its amplitude vanishes. In fact, they will offer no use to us well before they get to absolute zero amplitude.
 
-This is because there exists a lot of signal noises in the environment. So whenever the waves' amplitude is lower than that of the noise, we will actually lose the ability to distinguish between them and the noise.
+This is because there exists a lot of signal noises in the environment. So whenever the waves' amplitude is lower than that of the noise, we will lose the ability to distinguish between them from the noise.
 
 Hence, it is quite critical that we supply a strong electromagnetic wave to begin with.
 
 ## Section 5: Beam Forming
 
-And... this can be done via beam forming.
+And... Amplitude enhancement can be done via beam forming.
 
 Let us kick off this section with a 2D version of Figure 14 - under the context of beam forming, it will be easier if we visualize the radiation pattern this way.
 
@@ -382,7 +382,7 @@ Let us kick off this section with a 2D version of Figure 14 - under the context 
 
 Here we are looking into the donut from Figure 14 from the front direction (where the y-axis was) and are projecting the pattern on to the xz-plane. 
 
-To make the electromagnetic waves stronger, one convenient way is to ultilize a reflective material to re-direct those in one direction towards the other. This way although in one direction we get no signals at all, the other direction gets double of it.
+To make the electromagnetic waves stronger, one convenient way is to ultilize a reflective material to re-direct those in one direction towards the other. This way although in one direction we get no signals at all, the other direction gets more of it.
 
 This can be illustrated as follows:
 
@@ -392,6 +392,8 @@ This can be illustrated as follows:
       Figure 18: A reflector producing stronger electromagnetic waves in one direction.
     </figcaption>
   </figure>
+
+Another way to increase the signal power further is to add more sources that emit electromagnetic waves, such as, another circle. 
 
 
 
