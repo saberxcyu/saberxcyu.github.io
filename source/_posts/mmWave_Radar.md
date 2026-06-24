@@ -3,12 +3,12 @@ title: FMCW mmWave Radar
 date: 2026-06-06
 mathjax: true
 categories: [blog]
-tags: [eletrical engineering]
+tags: [electrical engineering]
 ---
 
 Hey! I want to take you on a tour that explains FMCW (Frequency Modulated Continuous Wave) mmWave radars. It is supposed to be fun. 
 
-We will first go back to high school physics and touch up our memory on eletcromagnetic waves.
+We will first go back to high school physics and touch up our memory on electromagnetic waves.
 
 We will then talk about how we can use a circle to represent radar signals and go over some very fundamental stuffs for the radar to help build familiarity around this topic.
 
@@ -22,14 +22,14 @@ We will begin the blog with the light bulb, something we're all familiar with.
 
 When we flip a switch to turn on the light, what we are doing essentially is just closing the electric circuit for the light bulb. 
 
-The power source creates a voltage that generates an eletectric field and drives electrons towards the bulb's filament. 
+The power source creates a voltage that generates an electric field and drives electrons towards the bulb's filament. 
 
 This causes the filament's atoms to vibrate and release electromagnetic waves that light up the space.
 
   <figure>
     <img src="lightbulb.gif" alt="A light bulb emitting EM waves">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 1: A light bulb emitting electromagnetic waves to the surrounding.
+      Figure 1: A light bulb emitting electromagnetic waves to the surroundings.
     </figcaption>
   </figure>
 
@@ -48,7 +48,7 @@ The animation below shows how these electromagnetic waves can be generated. Note
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 2: Oscillating voltage generates eletromagnetic waves.
+      Figure 2: Oscillating voltage generates electromagnetic waves.
     </figcaption>
   </figure>
 
@@ -74,7 +74,7 @@ It's not too bad. Right? I will leave you with a fun fact below, then let's dive
 Fun fact: there are electromagnetic waves that have very very short $\lambda$, much shorter than visible lights, like the gamma ray (whose $\lambda$ is less than 0.01 nano meters). They carry high energy and can damage our cells in the body. That is why the doctors use them as a "gamma knife" to treat cancers sometimes.
 
 
-## Section 2: The Basics of a Cricle
+## Section 2: The Basics of a Circle
 
 In this chapter, our goal is to understand more about the circle -> because it is actually what we use to describe the event of voltage oscillation in the radar, the process which produces those mmWaves. 
 
@@ -86,7 +86,7 @@ What!? This is such non-sense. You might wonder. You have understood the circle 
 
 I totally get it. Let me explain. 
 
-Also, this blog should be written in a way that makes it totally up to you whether you decide if the circle exsits.
+Also, this blog should be written in a way that makes it totally up to you whether you decide if the circle exists.
 
 (yes, it is going to be up to you anyway regardless of what I wrote... 😂 Just wanted to emphasize it here so it can serve as some kind of a reminder).
 
@@ -125,7 +125,7 @@ Ah, yes, you are right. We have learned this in middle school. It is defined by 
     </figcaption>
   </figure>
 
-If r is 1, say the cricles we draw were unit circles, then y is just equal to sin($\theta$). And x is just cos($\theta$). 
+If r is 1, say the circles we draw were unit circles, then y is just equal to sin($\theta$). And x is just cos($\theta$). 
 
 Now, let's vary the angle $\theta$ from 0° to 90°. What do we get for x and y? 
 
@@ -163,7 +163,7 @@ See this visual below, with a slow frequency to allow us to follow the points mo
 
 See how the x and y from the right-angled triangle traces out a nice circle on the left side in like 10 seconds? See how the $\theta$ is changing with time? Pretty cool eh?
 
-Now let's do something crazier. What if we extends the circle to a 3-dimensional space? Let's visualize this thing together with one more dimension, time. 
+Now let's do something crazier. What if we extend the circle to a 3-dimensional space? Let's visualize this thing together with one more dimension, time. 
 
 Here's the 3D representation in (time, x, y): 
 
@@ -174,11 +174,11 @@ Here's the 3D representation in (time, x, y):
     </figcaption>
   </figure>
 
-The circle became a sprial. Now when $\theta$ becomes 360°, the point does not land on the origin anymore, because time has lapsed. The same circle has essentially been expanded along the time axis. 
+The circle became a spiral. Now when $\theta$ becomes 360°, the point does not land on the origin anymore, because time has lapsed. The same circle has essentially been expanded along the time axis. 
 
 Interestingly, when we project the spiral on the yt plane, we will get our sine function back. And if we do that to the xt plane, we will get our cosine function back. 
 
-So hopefully by this point you see what we have done here, is actually just repreesnting the sprial using a coodintate of ($\sin(\omega t)$,$\cos(\omega t)$), just like how a point on a 2D plane can be defined by a coodinate of (x, y). 
+So hopefully by this point you see what we have done here, is actually just representing the spiral using a coordinate of ($\sin(\omega t)$,$\cos(\omega t)$), just like how a point on a 2D plane can be defined by a coordinate of (x, y). 
 
 And indeed, this is written formally in math as 
 $$
@@ -199,14 +199,14 @@ Do you believe that there is such thing as a circle, or is it just a bunch of po
 
 Welcome to section 3. In this section, we will go over why the circle (or the spiral, if extended along time axis) is used to describe our event - voltage oscillation. 
 
-One property of the circle, which we kinda mentioned above, is that it repeats itself every 360°, so you can see already that there is some kind of a sign there for periodicity. This however is not the only way to represent peridic events. 
+One property of the circle, which we kinda mentioned above, is that it repeats itself every 360°, so you can see already that there is some kind of a sign there for periodicity. This however is not the only way to represent periodic events. 
 
 Let's have a look at Figure 2 again from above which shows how electromagnetic waves can be generated in the radar by oscillating the voltage up and down.
 
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 2: Oscillating voltage generates eletromagnetic waves.
+      Figure 2: Oscillating voltage generates electromagnetic waves.
     </figcaption>
   </figure>
 
@@ -231,7 +231,7 @@ Since the voltage V can be measured at any given time t, both V and t are consid
 
 Great. 
 
-That means this equation alone already perfectly describes the event of an oscilating voltage. (it surely does)
+That means this equation alone already perfectly describes the event of an oscillating voltage. (it surely does)
 
 But what if the signal has a phase shift that makes it look something like this?
 
@@ -243,7 +243,7 @@ But now there is a problem.
 
 Given V, $\omega$, and t, can you solve for $\tau$? 
 
-Indeed, if you attempt to solve for $\tau$, you will notice the sine function produces two results that are both mathmatically correct. 
+Indeed, if you attempt to solve for $\tau$, you will notice the sine function produces two results that are both mathematically correct. 
 
 This can also be visualized graphically as follows:
 
@@ -292,7 +292,7 @@ Let's have another look at our friend, Figure 2:
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 2: Oscillating voltage generates eletromagnetic waves.
+      Figure 2: Oscillating voltage generates electromagnetic waves.
     </figcaption>
   </figure>
 
@@ -302,12 +302,12 @@ This property is governed by the geometry of the oscillating voltage. Say if the
 
 Everything else in between "parallel to oscillation" and "perpendicular to oscillation" will have some amplitude, not maxed nor nothing.
 
-The viusal below might help you see this in 3D:
+The visual below might help you see this in 3D:
 
   <figure>
     <img src="em_radiation_3d.gif" alt="Oscillating voltage generates electromagnetic waves (3D).">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 13: Oscillating voltage generates eletromagnetic waves (3D).
+      Figure 13: Oscillating voltage generates electromagnetic waves (3D).
     </figcaption>
   </figure>
 
@@ -317,21 +317,21 @@ First, since the intensity is max in directions perpendicular to oscillation, an
 
 Second, because electromagnetic waves can be absorbed and reflected by small particles in air when they travel through space, their amplitude decreases as function of distance travelled. So with that, you can also picture this animation as a way of showing the directions in which the electromagnetic waves can travel longer distances before their amplitude falls off.
 
-Moving on, since we are pretty faimilar witht the circle by now, we might as well just use one to replace the oscillation above. This will get us something that looks like this:
+Moving on, since we are pretty familiar with the circle by now, we might as well just use one to replace the oscillation above. This will get us something that looks like this:
 
   <figure>
-    <img src="em_radiation_circle.gif" alt="Eletromagnetic waves generated by the circle.">
+    <img src="em_radiation_circle.gif" alt="Electromagnetic waves generated by the circle.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 14: Eletromagnetic waves generated by the circle.
+      Figure 14: Electromagnetic waves generated by the circle.
     </figcaption>
   </figure>
 
 And... let us zoom in on some of these waves generated by the circle (region highlighted above), like we did for Figure 3. The waves along this direction shall have max intensity because they are perpendicular to oscillation.
 
   <figure>
-    <img src="wave_from_circle.gif" alt="A zoomed-in view of eletromagnetic waves generated by the circle.">
+    <img src="wave_from_circle.gif" alt="A zoomed-in view of electromagnetic waves generated by the circle.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 15: A zoomed-in view of eletromagnetic waves generated by the circle.
+      Figure 15: A zoomed-in view of electromagnetic waves generated by the circle.
     </figcaption>
   </figure>
 
@@ -340,9 +340,9 @@ Note what is shown here (on the right) is the actual electromagnetic wave within
 Now, what is going to happen if we speed up the voltage oscillation, like for 2x the speed?
 
   <figure>
-    <img src="wave_from_circle_2x.gif" alt="A zoomed-in view of eletromagnetic waves generated by the circle (2x speed).">
+    <img src="wave_from_circle_2x.gif" alt="A zoomed-in view of electromagnetic waves generated by the circle (2x speed).">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 16: A zoomed-in view of eletromagnetic waves generated by the circle (2x speed).
+      Figure 16: A zoomed-in view of electromagnetic waves generated by the circle (2x speed).
     </figcaption>
   </figure>
 
@@ -351,13 +351,13 @@ Mmmm... It seems like the wavelength of the electromagnetic waves is cut in half
 How about we supply less voltage during oscillation? 
 
   <figure>
-    <img src="wave_from_circle_2x_halfA.gif" alt="A zoomed-in view of eletromagnetic waves generated by the circle (2x speed / half voltage)">
+    <img src="wave_from_circle_2x_halfA.gif" alt="A zoomed-in view of electromagnetic waves generated by the circle (2x speed / half voltage)">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 17: A zoomed-in view of eletromagnetic waves generated by the circle (2x speed / half voltage).
+      Figure 17: A zoomed-in view of electromagnetic waves generated by the circle (2x speed / half voltage).
     </figcaption>
   </figure>
 
-Oh... the cirlce has become smaller, and the amplitude of the wave is decreased. 
+Oh... the circle has become smaller, and the amplitude of the wave is decreased. 
 
 The lower voltage has caused the strongest wave (along the perpendicular direction) to have an equivalent amplitude to those along the weaker directions.
 
@@ -382,18 +382,83 @@ Let us kick off this section with a 2D version of Figure 14 - under the context 
 
 Here we are looking into the donut from Figure 14 from the front direction (where the y-axis was) and are projecting the pattern on to the xz-plane. 
 
-To make the electromagnetic waves stronger, one convenient way is to ultilize a reflective material to re-direct those in one direction towards the other. This way although in one direction we get no signals at all, the other direction gets more of it.
+To make the electromagnetic waves stronger, one convenient way is to utilize a reflective material to re-direct those in one direction towards the other. This way although in one direction we get no signals at all, the other direction gets more of it.
 
 This can be illustrated as follows:
 
   <figure>
-    <img src="reflector_2d.gif" alt="A reflector producing stronger electromagnetic waves in one direction.">
+    <img src="reflector_2d.gif" alt="Producing stronger electromagnetic waves with the help of a reflector.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 18: A reflector producing stronger electromagnetic waves in one direction.
+      Figure 19: Producing stronger electromagnetic waves with the help of a reflector.
     </figcaption>
   </figure>
 
-Another way to increase the signal power further is to add more sources that emit electromagnetic waves, such as, another circle. 
+Within this setup, it is important to note that the reflector has to be placed at a specific distance from the circle, so that the reflected waves are re-directed in a way that they travel in-phase with the original waves in the other direction. 
+
+This means the re-directed waves should have no phase shift (no time delay $\tau$) when compared to the other direction.
+
+Mathematically this can be expressed as: 
+
+$$A_{\text{total}} = \sum_{i=1}^{N} A_i$$,
+
+where i is the index for individual electromagnetic waves.
+
+Well, if a reflector can be used to add up the waves' amplitude, it's likely not too hard to imagine that another signal source can probably do a similar trick.
+
+In fact, if we add another voltage oscillation beside the one we already have, in a way that the emitted electromagnetic waves become in-phase with the original ones, the signal can be further enhanced.
+
+This can be visualize as follows.
+
+  <figure>
+    <img src="reflector_2d.gif" alt="Producing stronger electromagnetic waves with an additional oscillation (zoomed in on specific waves).">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 20: Producing stronger electromagnetic waves with an additional oscillation (zoomed in on specific waves).
+    </figcaption>
+  </figure>
+
+If we zoom out now from the specific waves and look at the whole thing on a macro level, we will see the radiation pattern of the electromagnetic waves changes to something like this.
+
+  <figure>
+    <img src="two_sources_pattern.gif" alt="Producing stronger electromagnetic waves with an additional oscillation.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 21: Producing stronger electromagnetic waves with an additional oscillation.
+    </figcaption>
+  </figure>
+
+The three "bubbles" that you see in this demonstration are called "lobes". There are 3 of them in there. One main lobe, and two small ones located on the side with less power.
+
+With the reflector and the additional signal source, our electromagnetic waves have gotten much stronger along some directions. Now if we start to rotate the radar, we can easily utilize this long beam that shoots out from the device to sense objects in the surroundings.
+
+Let's see this in the xy plane. (we are looking down from the top of the z-axis here)
+
+  <figure>
+    <img src="two_sources_pattern_rotating.gif" alt="Producing stronger electromagnetic waves with an additional oscillation.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 22: A demonstration of the radar being rotated all around.
+    </figcaption>
+  </figure>
+
+And at this point, I think we are ready to replace the mental model for the radar with one that resembles the lighthouse, where a beam of visible lights gets emitted all around to see things in the dark. 
+
+  <figure>
+    <img src="lighthouse.gif" alt="A lighthouse shooting a beam of light to the surroundings.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 23: A lighthouse shooting a beam of light to the surroundings.
+    </figcaption>
+  </figure>
+
+This is the end of section 5. Does the lighthouse model make you feel even more comfortable with the radar?
+
+## Section 6: Radar Sensing
+
+Welcome to this chapter. In this chapter, we are going to talk about how to use the radar to sense the surroundings.
+
+Let's pull up Figure 22 again, but this time, we are going to place an object in the field to be detected by the radar. The location of the object is highlighted by the star.
+
+
+
+
+
 
 
 
