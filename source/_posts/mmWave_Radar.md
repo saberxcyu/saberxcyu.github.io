@@ -371,7 +371,7 @@ Hence, it is quite critical that we supply a strong electromagnetic wave to begi
 
 And... Amplitude enhancement can be done via beam forming.
 
-Let us kick off this section with a 2D version of Figure 14 - under the context of beam forming, it will be easier if we visualize the radiation pattern this way.
+Let us kick off this section with a 2D version of Figure 14.
 
   <figure>
     <img src="em_radiation_circle_2d.gif" alt="A 2D version of the oscillating voltage producing electromagnetic waves.">
@@ -380,11 +380,13 @@ Let us kick off this section with a 2D version of Figure 14 - under the context 
     </figcaption>
   </figure>
 
-Here we are looking into the donut from Figure 14 from the front direction (where the y-axis was) and are projecting the pattern on to the xz-plane. 
+Here we are looking into the donut from Figure 14 from the front (where the y-axis was) and we the pattern on to the xz-plane. 
 
-To make the electromagnetic waves stronger, one convenient way is to utilize a reflective material to re-direct those in one direction towards the other. This way although in one direction we get no signals at all, the other direction gets more of it.
+To make these electromagnetic waves stronger, one convenient way is to utilize a reflector. 
 
-This can be illustrated as follows:
+A reflector is made up of a reflective material, such as metals, to re-direct the waves in one direction into the other, hence adding up the amplitudes.
+
+This way although in one direction we get no signals, we get more of it in the other.
 
   <figure>
     <img src="reflector_2d.gif" alt="Producing stronger electromagnetic waves with the help of a reflector.">
@@ -393,30 +395,28 @@ This can be illustrated as follows:
     </figcaption>
   </figure>
 
-Within this setup, it is important to note that the reflector has to be placed at a specific distance from the circle, so that the reflected waves are re-directed in a way that they travel in-phase with the original waves in the other direction. 
+With this setup, the reflector has to be placed at a specific distance from the circle, so that the reflected waves are re-directed in a way that they travel in-phase with the original waves in that direction. 
 
 This means the re-directed waves should have no phase shift (no time delay $\tau$) when compared to the other direction.
 
-Mathematically this can be expressed as: 
+Mathematically the add-up of amplitude can be expressed as: 
 
-$$A_{\text{total}} = \sum_{i=1}^{N} A_i$$,
+$$A_{\text{total}} = \sum_{i=1}^{N} A_i$$
 
-where i is the index for individual electromagnetic waves.
+, where N is the number of waves in-phase.
 
-Well, if a reflector can be used to add up the waves' amplitude, it's likely not too hard to imagine that another signal source can probably do a similar trick.
+And if a reflector can be used to add up the waves' amplitudes, it's likely not too hard to imagine that another signal source can probably do a similar trick.
 
-In fact, if we add another voltage oscillation beside the one we already have, in a way that the emitted electromagnetic waves become in-phase with the original ones, the signal can be further enhanced.
-
-This can be visualize as follows.
+In fact, if we add another voltage oscillation beside the one we already have, in a way that the emitted electromagnetic waves become in-phase with the original ones, the signal can be further enhanced. See here for a demonstration.
 
   <figure>
-    <img src="reflector_2d.gif" alt="Producing stronger electromagnetic waves with an additional oscillation (zoomed in on specific waves).">
+    <img src="two_circles_waves.gif" alt="Electromagnetic waves added up from two voltage oscillations">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 20: Producing stronger electromagnetic waves with an additional oscillation (zoomed in on specific waves).
+      Figure 20: Electromagnetic waves added up from two voltage oscillations.
     </figcaption>
   </figure>
 
-If we zoom out now from the specific waves and look at the whole thing on a macro level, we will see the radiation pattern of the electromagnetic waves changes to something like this.
+If we now zoom out from the specific waves and look at the whole thing on a more macro level, we will see the radiation pattern of the electromagnetic waves changes to something like this.
 
   <figure>
     <img src="two_sources_pattern.gif" alt="Producing stronger electromagnetic waves with an additional oscillation.">
@@ -425,16 +425,16 @@ If we zoom out now from the specific waves and look at the whole thing on a macr
     </figcaption>
   </figure>
 
-The three "bubbles" that you see in this demonstration are called "lobes". There are 3 of them in there. One main lobe, and two small ones located on the side with less power.
+The "blobs" that you see in this demonstration are called "lobes". There are 3 of them in there. One main lobe, and two small ones located on the side with less intensity.
 
-With the reflector and the additional signal source, our electromagnetic waves have gotten much stronger along some directions. Now if we start to rotate the radar, we can easily utilize this long beam that shoots out from the device to sense objects in the surroundings.
+With the reflector and the additional signal source, our electromagnetic waves have gotten much stronger along some directions. 
 
-Let's see this in the xy plane. (we are looking down from the top of the z-axis here)
+Let's start using this long beam to sense our surroundings. We'll see this in the xy plane. (as we're looking down from the top of the z-axis)
 
   <figure>
-    <img src="two_sources_pattern_rotating.gif" alt="Producing stronger electromagnetic waves with an additional oscillation.">
+    <img src="two_sources_pattern_rotating.gif" alt="A rotating radar shooting out a long beam to sense the surroundings.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 22: A demonstration of the radar being rotated all around.
+      Figure 22: A rotating radar shooting out a long beam to sense the surroundings.
     </figcaption>
   </figure>
 
@@ -451,9 +451,99 @@ This is the end of section 5. Does the lighthouse model make you feel even more 
 
 ## Section 6: Radar Sensing
 
-Welcome to this chapter. In this chapter, we are going to talk about how to use the radar to sense the surroundings.
+Welcome to this chapter. In this chapter, we are going to talk more about actually using the radar to detect things in the surroundings.
 
-Let's pull up Figure 22 again, but this time, we are going to place an object in the field to be detected by the radar. The location of the object is highlighted by the star.
+Let's pull up Figure 22 again, but this time, we are going to place an object in the field to be detected by the radar. The location of the object is highlighted by the rectangle.
+
+  <figure>
+    <img src="two_sources_pattern_target.gif" alt="A rotating radar detecting objects in the surroundings.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 24: A rotating radar detecting objects in the surroundings.
+    </figcaption>
+  </figure>
+
+See how the object reflects the electromagnetic waves back at the radar whenever it is hit by the beam? 
+
+This is great because whenever we receive any waves back at the radar, we can use the $\theta$ at that moment to tell the direction of the object.
+
+Now, let's zoom in to see this interaction in more detail.
+
+  <figure>
+    <img src="wave_reflection.gif" alt="Electromagnetic waves reflected at the object.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 25: Electromagnetic waves reflected at the object.
+    </figcaption>
+  </figure>
+
+Notice how the object is stationary. What will happen if we start moving it? Let's visualize the waves being reflected by an object moving towards the radar and another one moving away from it.
+
+  <figure>
+    <img src="wave_doppler.gif" alt="Electromagnetic waves reflected by moving object.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 26: Electromagnetic waves reflected by moving object.
+    </figcaption>
+  </figure>
+
+Ah ha. The frequency of the waves gets altered in both cases. 
+
+This is called the Doppler effect.
+
+Indeed, the frequency shift due to this effect is governed by the relationship $$f_d = \frac{2v}{\lambda}$$, where v is the velocity of the moving object. 
+
+Let's visualize that too.
+
+  <figure>
+    <img src="wave_doppler_2v.gif" alt="Electromagnetic waves reflected by objects moving at different speeds.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 27: Electromagnetic waves reflected by objects moving at different speeds.
+    </figcaption>
+  </figure>
+
+Great. So far we have shown that we can obtain both the direction and speed of the object via the rotating beam (lighthouse model).
+
+Can we also know the range (how far the object is located from the radar)? Like, that seems pretty important too, right?
+
+Let's reveal that by putting our situation into math terms.
+
+Recall in section 2, we said the oscillation signal can be described as $\sin(\omega t)$, and how when there is a time delay $\tau$, the formula becomes $\sin(\omega(t-\tau))$?
+
+If we look at the orange wave from above, it is origianlly produced by the circle, so it can be represented using $\sin(\omega t)$. When it arrives at the object, it becomes $\sin(\omega(t-\frac{1}{2}\tau))$, where half $\tau$ is the time it takes to get to the object ($\tau$ is round trip). 
+
+When the waves are reflected at the object, they flip 180° (or one $\pi$) in phase and become $\sin(\omega(t-\frac{1}{2}\tau) - \pi)$.
+
+And when they get back to the radar, we will have $\sin(\omega(t-\tau) - \pi)$. 
+
+So, now given the signal is $\sin(\omega(t-\tau) - \pi)$, can we find the range R from the radar to the target?
+
+Yes, but only if we can find $\tau$. 
+
+If we can find $\tau$, then R can be computed by $R=2c\tau$, where c is the speed of light (remember light is just one kind of electromagnetic wave).
+
+But is it possible to find $\tau$? 
+
+You might recall from section 2, that we will need the second coordinate $\cos(\omega t)$, to rule out the ambiguity from using just the sine function. 
+
+Actually, to make things easier to understand, let's visualize all that we just described here with an 3D animation.
+
+  <figure>
+    <img src="wave_reflection_3d.gif" alt="An 3D demonstration of the electromagnetic wave reflection.">
+    <figcaption style="text-align:center; font-size:0.85em; color:#888;">
+      Figure 28: An 3D demonstration of the electromagnetic wave reflection.
+    </figcaption>
+  </figure>
+
+From here it becomes slightly clearer that, even if we have the cosine function, solving for $\tau$ can be problematic. 
+
+This is because the phase term inside the sine and cosine function is actually capped at $2\pi$, meaning that their value is identical mathematically every $2\pi$ (or physically on the electromagnetic waves, this is every $\lambda$).
+
+So given $\sin(\omega(t-\tau) - \pi)$ now, if we solve for $\tau$ and then compute the range R, we will actually get multiple possible locations for the object, and these locations are spaced out by $\lambda$. So we can't know exactly how far the thing is from the radar.
+
+But there is one engineering trick that we can use to help address this problem. And that is frequency modulation (and hence the name "frequency modulated continuous wave (FMCW) mmWave radar").
+
+## Section 7: Frequency Modulated Continuous Wave
+
+
+
 
 
 
