@@ -6,13 +6,11 @@ categories: [blog]
 tags: [electrical engineering]
 ---
 
-Hey! I want to take you on a tour that explains FMCW (Frequency Modulated Continuous Wave) mmWave radars. It is supposed to be fun. 
+Hey! I want to take you on a tour that explains FMCW (Frequency Modulated Continuous Wave) mmWave radars. We will first go back to high school physics and touch up our memory on electromagnetic waves, then talk about how we can use a circle to represent radar signals and go over some very fundamental stuffs for the radar.
 
-We will first go back to high school physics and touch up our memory on electromagnetic waves.
+It is supposed to be fun. 
 
-We will then talk about how we can use a circle to represent radar signals and go over some very fundamental stuffs for the radar to help build familiarity around this topic.
-
-The ultimate goal is to briefly answer "what is FMCW mmWave radar" in this 20-minute read.
+The ultimate goal is to answer "what is FMCW mmWave radar" and to build familiarity around this topic for anyone who works with radar data.
 
 Bear with me, annnnnnnd, let's go!
 
@@ -388,7 +386,7 @@ Let us kick off this section with a 2D version of Figure 14.
     </figcaption>
   </figure>
 
-Here we are looking into the donut from Figure 14 from the front (where the y-axis was) and we the pattern on to the xz-plane. 
+Here we are looking into the donut from Figure 14 from the front side (where the y-axis was) and we project the pattern on to the xz-plane. 
 
 To make these electromagnetic waves stronger, one convenient way is to utilize a reflector. 
 
@@ -446,7 +444,7 @@ Let's start using this long beam to sense our surroundings. We'll see this in th
     </figcaption>
   </figure>
 
-And at this point, I think we are ready to replace the mental model for the radar with one that resembles the lighthouse, where a beam of visible lights gets emitted all around to see things in the dark. 
+And at this point, I think we are ready to replace our mental model for the radar with one that resembles the lighthouse, where a beam of visible lights gets emitted all around to see things in the dark. 
 
   <figure>
     <img src="lighthouse.gif" alt="A lighthouse shooting a beam of light to the surroundings.">
@@ -455,15 +453,15 @@ And at this point, I think we are ready to replace the mental model for the rada
     </figcaption>
   </figure>
 
-This is the end of section 5. Does the lighthouse model make you feel even more comfortable with the radar?
+This is the end of section 5. I hope the lighthouse model will make you feel even more comfortable working with the radar!
 
 
 
 ## Section 6: Radar Sensing
 
-Welcome to section 6. In this chapter, we are going to talk more about actually using the radar to detect things in the surroundings.
+Welcome to section 6. In this chapter, we are going to talk more about actually using the radar to detect things.
 
-Let's pull up Figure 22 again, but this time, we are going to place an object in the field to be detected. The location of the object is highlighted by the white rectangle.
+Let's pull up Figure 22 again, but this time, we are going to place an object in the field to be detected. The location of it is highlighted by the white rectangle.
 
   <figure>
     <img src="two_sources_pattern_target.gif" alt="A rotating radar detecting objects in the surroundings.">
@@ -472,9 +470,9 @@ Let's pull up Figure 22 again, but this time, we are going to place an object in
     </figcaption>
   </figure>
 
-See how the object reflects the electromagnetic waves back at the radar whenever it is hit by the beam? 
+See how the object reflects electromagnetic waves back to the radar? 
 
-This is great because whenever we receive any waves back at the radar, we can look at the $\theta$ at that moment to tell the direction of the object.
+This is awesome because now whenever we receive any waves back at the radar, we can look at its rotational angle $\theta$ at the moment to tell the direction of the object.
 
 Now, let's also see how this works on a micro level. The white rectangle on the right is the object that reflects.
 
@@ -485,9 +483,11 @@ Now, let's also see how this works on a micro level. The white rectangle on the 
     </figcaption>
   </figure>
 
-In this case, the waves are being reflected by a stationary object.
+From this animation, we can see the reflected waves have a similar frequency with the original ones, just flipped by 180° (or one $\pi$). 
 
-What will happen if the object starts moving?
+This is the case only when the object is stationary.
+
+What's gonna happen if the object starts moving?
 
 Let's see that in action!
 
@@ -498,15 +498,15 @@ Let's see that in action!
     </figcaption>
   </figure>
 
-Here we have one object moving towards the radar at a velocity v, and another moving away from the radar at the same speed. 
+Here we have one object moving towards the radar at a velocity v (top), and another moving away from the radar at the same speed (bottom). 
 
 Notice how the reflected waves come back to the radar with a different frequency?
 
 This is called the Doppler effect.
 
-Indeed, the frequency shift due to Doppler is governed by the relationship $$f_d = \frac{2v}{\lambda}$$. 
+Indeed, the frequency shift due to Doppler is governed by the relationship $$f_d = \frac{2v}{\lambda}$$
 
-Check out the animation below to see the Doppler shifts due to different speeds.
+Here an animation is provided to help you visualize the Doppler shifts. Note the two objects are moving at different speeds.
 
   <figure>
     <img src="wave_doppler_2v.gif" alt="Electromagnetic waves reflected by objects moving at different speeds.">
@@ -515,13 +515,13 @@ Check out the animation below to see the Doppler shifts due to different speeds.
     </figcaption>
   </figure>
 
-OK! So far we have shown that both the direction and speed of the object can be detected via the rotating beam (lighthouse model).
+OK! So far we have shown that both the direction and speed of the object can be determined via the rotating beam (lighthouse model).
 
-Can we figure out the distance of the object as well? Like, that seems pretty important too, right? (this distance in radar terminology is usually called the "range" of an object and is denoted by the letter R)
+Can we figure out the distance of the object as well? Like, that seems pretty important too, right? (this distance in radar terminology is called the "range" of an object and is denoted by the letter R)
 
-Let's reveal that by putting our situation into math terms.
+Let's reveal that by putting our situation into math.
 
-Recall in section 3, we said the oscillation signal can be described as Voltage(t) = $\sin(\omega(t-\tau))$, and how when there is a time delay $\tau$, the formula becomes $\sin(\omega(t-\tau))$?
+Recall in section 3, we said the oscillation signal can be described as $$Voltage(t) = \sin(\omega(t-\tau))$$ and how when there is a time delay $\tau$, the signal becomes $$\sin(\omega(t-\tau))$$
 
   <figure>
     <img src="wave_reflection.gif" alt="Electromagnetic waves reflected at the object.">
@@ -530,17 +530,17 @@ Recall in section 3, we said the oscillation signal can be described as Voltage(
     </figcaption>
   </figure>
 
-If we look at the orange wave again from Figure 25 above, when it is originally produced by the circle, it is represented using Voltage(t) = $\sin(\omega t)$. 
+If we look at the orange transmitted wave again from Figure 25 above, it is produced by the circle and therefore can be represented by the identical signal $\sin(\omega t)$.
 
-When it arrives at the object, it becomes $\sin(\omega(t-\frac{1}{2}\tau))$, where half $\tau$ is the time it takes to get to the object (and the full $\tau$ defines the round trip). 
+When it arrives at the object, it becomes $$\sin(\omega(t-\frac{1}{2}\tau))$$ where half $\tau$ is the time it takes to get to the object (and the full $\tau$ defines the round trip). 
 
-At the point of reflection, the electromagnetic waves hit the object and flip 180° (or one $\pi$) in phase due to the flipping electric field, changing the representation to $\sin(\omega(t-\frac{1}{2}\tau) - \pi)$.
+At the point of reflection, the electromagnetic waves hit the object and flip 180° (or one $\pi$) in phase due to the flipping electric field, changing the representation to $$\sin(\omega(t-\frac{1}{2}\tau) - \pi)$$
 
-And when those waves finally make it back to the radar, they can be described as $\sin(\omega(t-\tau) - \pi)$. 
+And when those waves finally make it back to the radar, they become $$\sin(\omega(t-\tau) - \pi)$$
 
 You might also recall from section 3, that there should be a cosine component as well to rule out the ambiguity from using just the sine function. 
 
-Let's visualize that in 3D. 
+Let's visualize all of these in 3D. 
 
   <figure>
     <img src="wave_reflection_3d.gif" alt="An 3D demonstration of the electromagnetic wave reflection.">
@@ -549,23 +549,27 @@ Let's visualize that in 3D.
     </figcaption>
   </figure>
 
-Now, given the final signal $$V(t) = \sin(\omega(t-\tau) - \pi)$$ can we find the range R (the formula to convert $\tau$ to R is $R=2c\tau$, where c is the speed of light. Remember light is just one kind of electromagnetic wave)?
+Now, the question becomes like this, given the final signal $$V(t) = \sin(\omega(t-\tau) - \pi)$$ can we find the range R between the object and the radar? 
 
-This can be tricky.
+ps. the formula to convert $\tau$ to R is $R=2c\tau$, where c is the speed of light. Remember light is just one kind of electromagnetic wave?
 
-In that equation, we know the angular frequency $\omega$ from the voltage oscillation (plus any Doppler effect if exists), and we know the time t from the moment we receive the signal. 
+This can be tricky. Let me explain.
 
-Assume we can measure the voltage V for the received signal by converting it from the electromagnetic waves.
+In that equation above, we know the angular frequency $\omega$ from the voltage oscillation (plus any Doppler effect if exists), and we know the time t from the moment we receive the signal. 
+
+When we receive the returning electromagnetic waves, we will turn it into voltage signal V(t) using its electric field. Assuming we can measure that as well, so V is also known.
 
 It really seems like everything is known here.
 
-But there still a problem.
+But there's still a problem.
 
-We can't really find $\tau$ because the phase term inside the sine function is capped at $2\pi$, meaning the value of the function repeats mathematically every $2\pi$ (or physically on the electromagnetic waves, this is every one half $\lambda$).
+We can't really find $\tau$ because the phase term inside the sine function wraps every $2\pi$, meaning the value of the function repeats mathematically every $2\pi$ (or physically on the electromagnetic waves, this is every one half $\lambda$).
 
 This is true even with the help of the cosine coordinate because the cosine function only helps to rule out the ambiguity within one $2\pi$.
 
-Given this property, when we solve for R, we will actually get multiple possible locations for the object that are spaced out by $\frac{1}{2}\lambda$. And there is no way for us to determine which location is the correct one.
+Given this property, when we solve for R, we will actually get multiple possible locations for the object. These solutions are all spaced out by $\frac{1}{2}\lambda$ and there is an infinite amount of them. 
+
+So there is no way for us to determine which location is the correct one.
 
 But don't worry, we can apply an engineering trick to help address this issue. And this is frequency modulation (hence the name "frequency modulated continuous wave (FMCW) mmWave radar").
 
@@ -575,11 +579,11 @@ But don't worry, we can apply an engineering trick to help address this issue. A
 
 In a frequency modulated radar, we linearly increase the frequency of the transmitted electromagnetic waves in a window called chirp. (for example, from 77GHz to 81GHz)
 
-When one chirp ends, we stop for a bit, and then we start another chirp and repeat this process again of increasing frequency. 
+When one chirp ends, we stop for a bit, and then we start another chirp and we repeat this process over and over again. 
 
-We will see a visualization of it below. 
+We will see a visualization of it here. 
 
-By the way, the reason why this frequency modulation window is called a chirp is because the linear increase of its frequency (in audio domain) would make the window sound like a sharp, high-pitched, rapid sound that is similar to a bird or cricket chirp.
+ps. the reason why this window is called a chirp is because the linear increase of frequency (if heard as audio) would make the window sound like a sharp and rapid pitch that is similar to a bird or cricket chirp.
 
   <figure>
     <img src="wave_from_circle_chirp.gif" alt="Frequency modulation within one chirp.">
@@ -588,34 +592,83 @@ By the way, the reason why this frequency modulation window is called a chirp is
     </figcaption>
   </figure>
 
-Now since the frequency of the chirp changes according to the equation $\omega(t) = \omega_0 + \alpha t$, where $\omega_0$ is the starting frequency and $\alpha$ is the rate of change, the phase term inside the sine function can no longer be computed simply as $\theta(t) = \omega t$.
+Notice how the speed of the cycle keeps increasing?
 
-We will use calculus here to find the phase term using $$\theta(t) = \int_{0}^{t} \omega(t') \, dt'$$ (like how we use calculus to find the distance traveled by a falling object due to its changing velocity).
+The frequency actually follows this relationship in a FMCW radar $$\omega(t) = \omega_0 + \alpha t$$ where $\omega_0$ is the starting frequency and $\alpha$ is the rate of change. 
 
-Solving that integral will give us the following equation for the phase term
+Since the frequency is varying, the phase term inside the sine function can no longer be computed as simply as $\theta(t) = \omega t$.
+
+We will have to use calculus here to find the phase term with $$\theta(t) = \int_{0}^{t} \omega(t') \, dt'$$ (just like how we use calculus to find the distance traveled by a falling object due to its changing velocity).
+
+Solving that integral will give us the following equation (for the phase term)
 $$\theta_t(t) = \omega_0 t + \frac{1}{2}\alpha t^2$$
 
-which means our transmitted signal can be represented by
+And with that, we can reprsent our transmitted signal using
 $$V(t) = \sin\left(\omega_0 t + \frac{1}{2}\alpha t^2\right)$$
 
-Similar to section 6, when the waves get to the object, they become
+Similar to section 6, when the waves get to the object, we consider a time delay $\tau$, so the equation becomes
 $$\sin\left(\omega_0 \left(t - \frac{\tau}{2}\right) + \frac{1}{2}\alpha \left(t - \frac{\tau}{2}\right)^2\right)$$
 
-and after reflection become
+and after reflection, we have
 $$\sin\left(\omega_0 \left(t - \frac{\tau}{2}\right) + \frac{1}{2}\alpha \left(t - \frac{\tau}{2}\right)^2 - \pi\right)$$
 
-and finally when they are back to the radar, they become
+finally when they are back to the radar
 $$\sin\left(\omega_0 (t - \tau) + \frac{1}{2}\alpha (t - \tau)^2 - \pi\right)$$
 
-or, if we expand the terms, we get
+and last, if we expand the terms from the equation above, we'll get this pretty fancy expression that looks like this
 $$V(t) = \sin\left(\omega_0 t - \omega_0 \tau + \frac{1}{2}\alpha t^2 - \alpha \tau t + \frac{1}{2}\alpha \tau^2 - \pi\right)$$
 
-I am going to skip all that math here 😉, but hopefully this chunk of math here is complicated enough to convince you, that if you solve for $\tau$ here, you will get the precise solution (one solution) for $\tau$, which then you can compute for R. 
+Anyway! I am going to skip all that math here 😉, but hopefully this big chunk of expression here is complicated enough to convince you, that if you solve for $\tau$ here, you will get a precise solution (one solution) for $\tau$, which then will allow you to compute for R. 
 
 BUT!
 
 There is one more problem!
 
-(I know, we keep having problems LOL, but trust me, this is the last one, at least for what I know, it is the last one)
+(I know, we keep having problems 😆, but trust me, this is the last one, at least for what I know it is the last one 😂)
 
+Annnnnnd... our last issue is that the solution we have for $\tau$ above, is all based on the assumption we made in section 6, that the returned signal, Voltage(t), of the received electromagnetic waves, can be measured. 
+
+In fact, when we work with these radars, the returned signal is often within the range of some GHz, which means, the oscillation completes a cycle every 0.01 to 0.1 nano seconds (calculated by 1/f). 
+
+This is like 10^10 cycles per second.
+
+It is actually happening so fast that even our sampler can't keep up with it. 
+
+According to the Nyquist-Shannon Sampling Theorem, the sampler will need to fire at least 2x quicker than this frequency to ensure the received signal is reliably measured.
+
+So, in fact, V(t) actually stays unknown in this case because we can't measure the returned signal directly. What can we do about it?
+
+Turns out if we multiply the transmitted signal above $$\sin\left(\omega_0 t + \frac{1}{2}\alpha t^2\right)$$ with the received signal $$\sin\left(\omega_0 t - \omega_0 \tau + \frac{1}{2}\alpha t^2 - \alpha \tau t + \frac{1}{2}\alpha \tau^2 - \pi\right)$$
+
+according to the relationship $$\sin(A)\sin(B) = \frac{1}{2}\cos(A - B) - \frac{1}{2}\cos(A + B)$$
+
+we shall obtain a delta term $\frac{1}{2}\cos(Tx - Rx)$ and a sum component $\frac{1}{2}\cos(A + B)$. 
+
+In reality, this multiplication is processed by a component in the radar called the "mixer". Once the two signals are multiplied, we apply a low-pass filter to acquire the delta term and we throw away the sum. 
+
+The delta term is what we called the beat frequency, which is a lot slower than the original signals because the reflected waves should not be too different than the transmitted waves (even with Doppler), so the delta they produce is not significant.
+
+In other words, the beat frequency is much more sampler-friendly and can be measured.
+
+And from there, finally, we will say that $\tau$ and R can be reliably determined.
+
+So this is it, as I promised. We will kill the post from here.
+
+
+
+## Section 8: The End
+
+Oh don't worry, this is not extra information. I am just using this last section to conclude.
+
+Radar is actually a hugeeeeee topic. The more I learn about it, the more I know that there are more that I don't know. 
+
+I started to dig into this field when I begun working with radar data for preception and detections. 
+
+To date. My conclusion is that, you will probably need a PhD to really master using the radar.
+
+Although I could potentially just treat the data as given and not pay too much attention into understanding the basics, I do feel that this is essential for responsible and high-quality data collection, which, in the other post, I argued, is paradigm for deep learning.
+
+Anyway, I hope you enjoyed the post. This one is very long and much longer than usual. 
+
+When I started writing this post, I thought I would be done in a week or so. Boy, I was wrong. Radar, Radar, Radarrrrrrrr.
 
