@@ -651,7 +651,7 @@ So this is it, as I promised. We will kill the post from here.
 
 ## Section 8: The End
 
-Oh don't worry, this is not extra information. I am just using this section to conclude.
+Oh don't worry, this is not extra information. I am just here to conclude.
 
 Radar is actually a hugeeeeee topic. The more I learn about it, the more I know that there are more that I don't know about it. 
 
