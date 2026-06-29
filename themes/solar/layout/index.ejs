@@ -1,3 +1,7 @@
+<% if (theme.motto) { %>
+<p class="motto"><%= theme.motto %></p>
+<% } %>
+
 <section id="about">
   <% if (config.description) { %>
     <%- markdown(config.description) %>
