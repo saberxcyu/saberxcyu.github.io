@@ -1,5 +1,5 @@
 ---
-title: The iron ring & why you should consider wearing
+title: The iron ring & why you should consider wearing it
 date: 2026-06-29
 mathjax: true
 categories: [blog]
