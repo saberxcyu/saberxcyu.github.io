@@ -60,7 +60,7 @@ So I wanted to put this out here, mostly to incentify those who are walking the 
 
 The world only becomes so much better if you (yes you, you who is reading this post right now, I don't care about others - others will always do what they will end up doing) choose to become someone with standards and integrity. 
 
-And if you do, please don't forget to wear the ring to help me spot you out there.
+And if you do, please don't forget to wear the ring - it helps me find you out there in a crowd.
 
 
 
