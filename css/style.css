@@ -980,6 +980,15 @@ body {
     display: none;
   }
 }
+.motto {
+  text-align: center;
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #ccc;
+  margin: -1rem 0 2rem 0;
+  letter-spacing: 0.03em;
+}
 #sociallinks {
   display: inline-block;
   list-style: none;
