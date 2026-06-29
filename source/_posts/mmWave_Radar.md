@@ -3,7 +3,7 @@ title: FMCW mmWave Radar
 date: 2026-06-06
 mathjax: true
 categories: [blog]
-tags: [electrical engineering]
+tags: [engineering]
 ---
 
 Hey! I want to take you on a tour that explains FMCW (Frequency Modulated Continuous Wave) mmWave radars. We will first go back to high school physics and touch up our memory on electromagnetic waves, then talk about how we can use a circle to represent radar signals and go over some very fundamental stuffs for the radar.
@@ -659,7 +659,5 @@ I started to dig into this field when I begun working with radar data for precep
 
 Although for computer scientists, potentially, we could just treat the data as given and not pay too much attention into understanding the radar basics, I do feel that this is essential especially for responsible and high-quality data collection, which, in the other post (AI Hierarchy - What is really important), I argued, is paradigm for deep learning.
 
-Anyway, I hope you enjoyed the post. This one is very long and much longer than usual. 
-
-When I just started writing this post, I thought I would be done in a few days. Boy, I was wrong. Radar, Radar, Radarrrrrrrr.
+Anyway, I hope you enjoyed the post. This one is very long and much longer than usual. During the beginning of this post, I thought I would be done in a few days. Boy, I was wrong. Radar, Radar, Radarrrrrrrr.
 

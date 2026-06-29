@@ -2,7 +2,7 @@
 title: AI Hierarchy - What is really important
 date: 2026-05-15
 categories: [blog]
-tags: [machine learning, research insights]
+tags: [machine learning]
 ---
 
 After having worked with AI for about 2 years, I think what we have essentially built in the CS community in the past 15~20 years or so is nothing more than a machine that learns to pick up correlations & patterns (very well) from a given distribution of data. 
