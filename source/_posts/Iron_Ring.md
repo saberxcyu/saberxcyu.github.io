@@ -36,7 +36,7 @@ Is it so you can now brag about your engineering degree? No. That's what everybo
 
 Is it because it looks stylish and goes well with your outfit? No, also not it, even if it happens to be true.
 
-Is it because it sits on your pinky and reminds you about your obligation as an engineer? Well, that's... better, but still not quite exactly why I am pushing this so hard. 
+Is it because it sits on your pinky and reminds you about your obligation as an engineer? Well, yes the iron ring kinda makes you feel uncomfortable when you do sneaky things (believe it or not, even bad guys don't want to know or be reminded that they are bad), but that's still not quite exactly why I am pushing this so hard.
 
 Here is the real reason. If you hold yourself to certain standards, it's genuinely hard to find people like you, and the iron ring helps the right people find each other. 
 
@@ -50,11 +50,11 @@ From my experience, I can tell you very responsibly, that there are two kinds of
 
 The first are the ones born with it. I've met plenty in my life and have become good firends with some of them. Working alongside them feels awesome and very motivating.
 
-The second kind of people are trained to be like that. Yes, as surprising as it may seem, you can also be trained to have high standards. 
+The second kind of people are trained to be like that. Yes, as surprising as it may seem, you can also be trained to have standards. 
 
 And I am pretty sure I belong to this second group. 
 
-For me, it is the engineering education plus the influence of people from that first group that shaped me who I am. And despite things can be hard sometimes, I came out the other side as a better person, at least with a bit of standards and integrity to show for it.
+For me, it is the engineering education plus the influence of people from that first group that shaped me who I am. And despite things can be hard sometimes, I came out the other side a better person, at least with a bit of standards and integrity to show for it.
 
 So I wanted to put this out here, mostly to incentify those who are walking the same path right now (completing their B.Eng. and about to receive the ring) to join this club.
 
