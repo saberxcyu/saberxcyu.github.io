@@ -83,15 +83,9 @@ I will explain why the circle is used later in this post (section 7), but for no
 
 How about we start with my claim: there may be no such thing as a circle?
 
-What!? This is such nonsense, you might wonder. You have understood the circle for so long (perhaps from Kindergarten or middle school) and now there's a guy telling you there is no such thing as a circle. 
+What!? This is such nonsense, you might wonder. You have understood the circle for so long (perhaps from kindergarten or middle school) and now there's a guy telling you there is no such thing as a circle. 
 
 I totally get it. Let me explain. 
-
-Also, this blog should be written in a way that makes it totally up to you whether you decide if the circle exists.
-
-(yes, it is going to be up to you anyway regardless of what I wrote... 😂 Just wanted to emphasize it here so it can serve as some kind of a reminder).
-
-OK enough BS. Let's get back to it.
 
 Do you remember this guy? The one highlighted in the corner with a red circle, who looks just like you doing your little thing in the classroom and not paying attention to the instructor.
 
@@ -145,13 +139,11 @@ And it is not hard to see that if $\theta$ is varied from 0° all the way to 360
 
 The fact that when $\theta$ becomes 360°, we will land on the origin again, gives the sine and cosine functions a very nice property to allow them to be used for describing periodic events (such as for the oscillating voltage that you have seen in Figure 2). 
 
-But to use the circle for describing the event of voltage oscilation, there is one more thing missing here. Time, because our event varies with time. 
+But to use the circle for describing the event of voltage oscilation, there is one more thing missing. Time, because our event varies with time. 
 
 Indeed, $\theta$ can be expressed as a function of time, which turns y into $\sin(\omega t)$, and x into $\cos(\omega t)$, where $\omega$ is the angular frequency (in rad/sec). (side note: since one circle is 2$\pi$, to relate $\omega$ with a frequency (f) in Hz (cycle/sec), we can do $\omega = 2\pi f$)
 
-OK, so now we plot the x and y points as a function of time. What will that look like on the xy-plane? 
-
-See this visual below, with a slow frequency to allow us to follow the points more easily. 
+OK, so now we plot the x and y points as a function of time. What will that look like on the xy-plane? See this visual below. It's made with a slow frequency to help us follow the points more easily. 
 
   <figure>
     <img src="phasor_animation.gif" alt="(Right) Varying $\theta$ from 0 to 360° as a function of time, and (Left) drawing out the points on the xy plane.">
@@ -173,11 +165,11 @@ Here's the 3D representation in (time, x, y):
     </figcaption>
   </figure>
 
-The circle became a helix. Now when $\theta$ becomes 360°, the point does not land on the origin anymore, because time has elapsed. The same circle has essentially been expanded along the time axis. 
+The circle became a helix. Now when $\theta$ becomes 360°, the point no longer lands on the origin, because time has elapsed. The same circle has essentially been expanded along the time axis. 
 
 Interestingly, when we project the helix on the yt-plane, we will get our sine function back. And if we do that to the xt plane, we will get our cosine function back. 
 
-So hopefully by this point you see what we have done here, is actually representing the helix using a coordinate of ($\sin(\omega t)$,$\cos(\omega t)$), just like how a point on a 2D plane can be defined by a coordinate of (x, y). 
+So hopefully by this point you see what we have done here, is actually representing the helix using a coordinate of ($\sin(\omega t)$, $\cos(\omega t)$), just like how a point on a 2D plane can be defined by a coordinate of (x, y). 
 
 And indeed, this is written formally in math as 
 $$
@@ -185,9 +177,7 @@ Z(t) = x(t) + j \cdot y(t)
 $$
 where Z is the helix, and the j is there in front of the y component to indicate that the y component is on a different plane. 
 
-OK! Now that we've understood more about the circle, let's actually use it for our event!
-
-We will start all over again from Figure 2, which shows how electromagnetic waves can be generated in the radar by oscillating voltage.
+OK! Now that we've understood more about the circle, let's actually use it for our event! We will start all over from Figure 2 again, which shows how electromagnetic waves can be generated in the radar by oscillating voltage.
 
   <figure>
     <img src="em_radiation.gif" alt="Oscillating voltage generates electromagnetic waves.">
@@ -205,13 +195,13 @@ For simplicity, let's assume the voltage in the animation oscillates from +10V t
     </figcaption>
   </figure>
 
-Notice how the +10V and -10V can be normalized into a range that goes from +Max to -Max? We can even describe these boundaries with +1 and -1.
+Notice how the +10V and -10V can be normalized into a range from +Max to -Max? We can even describe these boundaries with +1 and -1.
 
-In fact, if we do that, it will become quite obvious that the vertical line is just the y-axis of the unit circle, which is governed by $y(t) = \sin(\omega t)$, or more specifically in this case $$\text{Voltage}(t) = \sin(\omega t)$$
+In fact, if we do that, it will become quite obvious that the vertical line is just the y-axis of the unit circle, which is governed by $y(t) = \sin(\omega t)$, or more specifically in this case, $$\text{Voltage}(t) = \sin(\omega t)$$
 
 Now to get to the full circle, we just need to add the second axis $x(t) = \cos(\omega t)$.
 
-Let's visualize that same circle again from Figure 8, but this time we will actually use it to represent our event. 
+Let's visualize that same circle again from Figure 8 (left), but this time we will actually use it to represent our event of voltage oscillation. 
 
   <figure>
     <img src="circle_voltage.gif" alt="Circle relabeled.">
@@ -233,7 +223,7 @@ $$y(t) = \sin(\omega t)$$
   <figure>
     <img src="circle_voltage_flipped.gif" alt="The same circle from Figure 8 and 10 but voltage is represented by the cosine term instead.">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
-      Figure 12: The same circle from Figure 8 and 10 but voltage is represented by the cosine term instead.
+      Figure 12: The same circle from Figure 8 and 11 but voltage is represented by the cosine term instead.
     </figcaption>
   </figure>
 
@@ -241,7 +231,7 @@ Do you feel more comfortable reading this animation now?
 
 Here, I think you might ask, "Why bother using a circle if the event can be described simply with a straight line like Figure 10?".
 
-There is actually a reason why we need that second coordinate that the circle brings, but as we said earilier, let's save that till section 6 later when we discuss more about the radar.
+There is actually a reason why we need that second coordinate that the circle brings, but as we said earilier, let's save that till section 6 later where we'll learn more about radar.
 
 This will wrap it up for section 2. Everything good?
 
@@ -305,7 +295,7 @@ And... let us zoom in on some of these waves generated by the circle (region hig
     </figcaption>
   </figure>
 
-Note what is shown here (on the right) is the actual electromagnetic wave within one unit of wavelength. It is not the sine function that we've been talking about in section 3, which is y-axis of the circle.
+Note what is shown here (on the right) is the actual electromagnetic wave within one unit of wavelength. It is not the sine function that we've been talking about in section 3, which is y-axis of the circle (or the x-axis after being flipped).
 
 Now, what is going to happen if we speed up the voltage oscillation, like for 2x the speed?
 
@@ -356,7 +346,7 @@ Here we are looking into the donut from Figure 14 from the front side (where the
 
 To make these electromagnetic waves stronger, one convenient way is to utilize a reflector. 
 
-A reflector is made up of a reflective material, such as metals, to re-direct the waves in one direction into the other, hence adding up the amplitudes.
+A reflector is made up by a reflective material, such as metals, to re-direct the waves in one direction into the other, hence adding up the amplitudes.
 
 This way although in one direction we get no signals, we get more of it in the other.
 
@@ -369,20 +359,20 @@ This way although in one direction we get no signals, we get more of it in the o
 
 With this setup, the reflector has to be placed at a specific distance from the circle, so that the reflected waves are re-directed in a way that they travel in-phase with the original waves in that direction. 
 
-This means the re-directed waves should have no phase shift (no time delay $\tau$) when compared to the other direction.
+This means the re-directed waves should have no phase shift when compared to the other direction.
 
 Mathematically the add-up of amplitude can be expressed as: 
 
 $$A_{\text{total}} = \sum_{i=1}^{N} A_i$$
 
-, where N is the number of waves in-phase.
+where N is the number of waves in-phase.
 
-And if a reflector can be used to add up the waves' amplitudes, it's likely not too hard to imagine that another signal source can probably do a similar trick.
+And if a reflector can be used to add up the waves' amplitudes, it's likely not too hard to imagine that another signal source can probably do that too.
 
 In fact, if we add another voltage oscillation beside the one we already have, in a way that the emitted electromagnetic waves become in-phase with the original ones, the signal can be further enhanced. See here for a demonstration.
 
   <figure>
-    <img src="two_circles_waves.gif" alt="Electromagnetic waves added up from two voltage oscillations">
+    <img src="two_circles_wave.gif" alt="Electromagnetic waves added up from two voltage oscillations">
     <figcaption style="text-align:center; font-size:0.85em; color:#888;">
       Figure 20: Electromagnetic waves added up from two voltage oscillations.
     </figcaption>
@@ -410,7 +400,7 @@ Let's start using this long beam to sense our surroundings. We'll see this in th
     </figcaption>
   </figure>
 
-And at this point, I think we are ready to replace our mental model for the radar with one that resembles the lighthouse, where a beam of visible lights gets emitted all around to see things in the dark. 
+And at this point, I think we are ready to replace our mental model for the radar with one that resembles the lighthouse, where a beam of visible light gets emitted all around to see things in the dark. 
 
   <figure>
     <img src="lighthouse.gif" alt="A lighthouse shooting a beam of light to the surroundings.">
@@ -453,9 +443,7 @@ From this animation, we can see the reflected waves have a similar frequency wit
 
 This is the case only when the object is stationary.
 
-What's gonna happen if the object starts moving?
-
-Let's see that in action!
+What's gonna happen if the object starts moving? Let's see that in action too!
 
   <figure>
     <img src="wave_doppler.gif" alt="Electromagnetic waves reflected by moving object.">
@@ -464,9 +452,9 @@ Let's see that in action!
     </figcaption>
   </figure>
 
-Here we have one object moving towards the radar at a velocity v (top), and another moving away from the radar at the same speed (bottom). 
+Here we have one object (top) moving towards the radar at a velocity v, and another one (bottom) moving away from the radar at the same speed. 
 
-Notice how the reflected waves come back to the radar with a different frequency?
+Notice how the reflected waves come back to the radar with a different $\lambda$ and frequency?
 
 This is called the Doppler effect.
 
@@ -483,15 +471,15 @@ Here an animation is provided to help you visualize the Doppler shifts. Note the
     </figcaption>
   </figure>
 
-OK! So far we have shown that both the direction and speed of the object can be determined via the rotating beam (lighthouse model).
+OK! So far we have shown that both the direction and speed of the object can be determined via the rotating beam radar (lighthouse model).
 
-Can we figure out the distance of the object as well? Like, that seems pretty important too, right? (this distance in radar terminology is called the "range" of an object and is denoted by the letter R)
-
-Let's reveal that by putting our situation into math.
+Can we figure out the distance of the object as well? Like, that seems pretty important too, right? (ps. this distance in radar terminology is called the "range" of an object and is denoted by the letter R)
 
 Recall in section 2, we said the oscillation signal can be described as 
 
 $$\text{Voltage}(t) = \cos(\omega t)$$
+
+Let's have a look at Figure 25 again which shows the transmitted waves and the reflected waves.
 
   <figure>
     <img src="wave_reflection.gif" alt="Electromagnetic waves reflected at the object.">
@@ -500,29 +488,29 @@ $$\text{Voltage}(t) = \cos(\omega t)$$
     </figcaption>
   </figure>
 
-If we look at the orange wave emitted by the circle again from Figure 25 above, we can represent it with the signal 
+Here the orange wave is generated by the voltage oscillation and can be representted by the same signal 
 
 $$V_{\text{Tx}}(t) = \cos(\omega t)$$
 
-where Tx stands for "Transmitted".
+here Tx stands for "Transmitted".
 
-When the waves arrives at the object, it becomes 
+As the wave travels to the object on the right side, it becomes 
 
-$$\cos(\omega(t-\frac{1}{2}\tau))$$ 
+$$V_{\text{intermediate}}(t) = \cos(\omega(t-\frac{1}{2}\tau))$$ 
 
-where half $\tau$ is the time it takes to get to the object (and full $\tau$ defines the round trip). 
+where $\frac{1}{2}\tau$ is the time it takes to get there (full $\tau$ defines the round trip). 
 
-At the point of reflection, the electromagnetic waves hit the object and flip 180° (or one $\pi$) in phase due to the flipping electric field, changing the representation to 
+At the point of reflection, the electromagnetic waves hit the object and flip 180° (or one $\pi$) in phase due to the flipping electric field, becoming
 
-$$\cos(\omega(t-\frac{1}{2}\tau) - \pi)$$
+$$V_{\text{intermediate}}(t) = \cos(\omega(t-\frac{1}{2}\tau) - \pi)$$
 
-And when those waves finally make it back to the radar, they become $
+And when they finally make it back to the radar, they become 
 
-$V_{\text{Rx}}(t) = \cos(\omega(t-\tau) - \pi)$$
+$$V_{\text{Rx}}(t) = \cos(\omega(t-\tau) - \pi)$$
 
 where Rx stands for "Received".
 
-Let's visualize all of these in 3D. 
+We will visualize all of these in 3D. 
 
   <figure>
     <img src="wave_reflection_3d.gif" alt="An 3D demonstration of the electromagnetic wave reflection.">
@@ -531,7 +519,7 @@ Let's visualize all of these in 3D.
     </figcaption>
   </figure>
 
-Now, the question becomes, given the final signal 
+Now, the question becomes, given the final received signal 
 $$V_{\text{Rx}}(t) = \cos(\omega(t-\tau) - \pi)$$ 
 
 can we find the range R between the object and the radar? (ps. the formula to convert $\tau$ to R is $R=2c\tau$, where c is the speed of light. Remember light is just one kind of electromagnetic wave?)
@@ -540,19 +528,19 @@ This can be tricky. Let me explain.
 
 In that equation above, we know the angular frequency $\omega$ from the voltage oscillation (plus any Doppler effect if exists), and t is the time when we measure that signal so it is also known.
 
-When we receive the returning electromagnetic waves, we will flip it into a voltage signal V(t) using its electric field. So V(t) should also be known.
+When we receive the returning electromagnetic waves, we will flip it into a voltage signal V(t) using its electric field. So $V_{\text{Rx}}(t)$ should also be known.
 
 While it seems like everything is known here, there are actually two problems. 
 
-First, the returned signal, V(t), actually has a very high frequency (in the level of GHz), which means the oscillation completes a cycle every 0.01 to 0.1 nanoseconds (calculated by 1/f). 
+First, the returned signal, $V_{\text{Rx}}(t)$, actually has a very high frequency (in the level of GHz), which means the oscillation completes a cycle every 0.01 to 0.1 nanoseconds (calculated by 1/f). 
 
 This is like $10^{10}$ cycles per second. It is so fast that even our sampling device can't keep up with it. (ps. According to the Nyquist-Shannon Sampling Theorem, the sampler will need to fire at least 2x quicker than this frequency to ensure the received signal is reliably measured.)
 
-So, in fact, V(t) cannot be measured directly.
+So, in fact, $V_{\text{Rx}}(t)$ cannot be measured.
 
-Second, even if V(t) can be measured, we still can't really find $\tau$ because the phase term ($\theta(t) = \omega(t-\tau) - \pi$) inside the cosine function wraps around every $2\pi$, meaning the value of the function repeats mathematically every $2\pi$ (or physically with the electromagnetic waves, this is every one half $\lambda$).
+Second, even if $V_{\text{Rx}}(t)$ can be measured, we still can't really find $\tau$ because the phase term $\theta(t) = \omega(t-\tau) - \pi$ inside the cosine function wraps around every $2\pi$, meaning the value of the function repeats mathematically every $2\pi$ (or physically with the electromagnetic waves, this is every one half $\lambda$).
 
-Given this property, when we solve for R, we will actually get multiple possible locations for the object. These solutions are spaced out by $\frac{1}{2}\lambda$ and there is an infinite amount of them. So there is no way for us to determine which location is the correct one.
+Given this property, when we solve for R, we will actually an infinite number of solutions. These ranges are spaced out by $\frac{1}{2}\lambda$ and there is no way for us to determine which location is the correct one.
 
 But don't worry, we can apply an engineering trick to address these two issues at once. And that is frequency modulation (hence the name "frequency modulated continuous wave (FMCW) mmWave radar") plus the use of a signal mixer. These will be explained in the section below.
 
@@ -562,7 +550,7 @@ But don't worry, we can apply an engineering trick to address these two issues a
 
 In a frequency modulated radar, we linearly increase the frequency of the transmitted electromagnetic waves in a window called chirp. (for example, from 77GHz to 81GHz)
 
-When one chirp ends, we stop for a bit, and then we start another chirp, and we repeat this process over and over again. 
+When one chirp ends, we stop for a bit, and then we start another one, and we repeat this process over and over again. 
 
 We will see a visualization of it here. (ps. the reason why this window is called a chirp is because the linear increase of frequency (if heard as audio) would make the window sound like a sharp and rapid pitch that is similar to a bird or cricket chirp.)
 
@@ -584,24 +572,26 @@ We will have to use calculus here to find the phase term with $$\theta(t) = \int
 Solving that integral will give us the following equation (for the phase term)
 $$\theta(t) = \omega_0 t + \frac{1}{2}\alpha t^2$$
 
-And with that, we can reprsent our transmitted signal using
+With that phase term, we can now reprsent our transmitted signal with this equation
 $$V_{\text{Tx}}(t) = \cos\left(\omega_0 t + \frac{1}{2}\alpha t^2\right)$$
 
-Similar to the last section, when the waves get to the object, we consider a time delay $\tau$, changing the representation to
-$$\cos\left(\omega_0 \left(t - \frac{\tau}{2}\right) + \frac{1}{2}\alpha \left(t - \frac{\tau}{2}\right)^2\right)$$
+Similar to the last section, when the waves get to the object, we consider a time delay $\frac{1}{2}\tau$, changing the representation to
+$$V_{\text{intermediate}}(t) = \cos\left(\omega_0 \left(t - \frac{\tau}{2}\right) + \frac{1}{2}\alpha \left(t - \frac{\tau}{2}\right)^2\right)$$
 
 at the point of reflection, we add a 180° shift
-$$\cos\left(\omega_0 \left(t - \frac{\tau}{2}\right) + \frac{1}{2}\alpha \left(t - \frac{\tau}{2}\right)^2 - \pi\right)$$
+$$V_{\text{intermediate}}(t) = \cos\left(\omega_0 \left(t - \frac{\tau}{2}\right) + \frac{1}{2}\alpha \left(t - \frac{\tau}{2}\right)^2 - \pi\right)$$
 
-finally when the waves make it back to the radar
-$$\cos\left(\omega_0 (t - \tau) + \frac{1}{2}\alpha (t - \tau)^2 - \pi\right)$$
+finally when the waves make it back to the radar, we will have
+$$\V_{\text{Rx}}(t) = cos\left(\omega_0 (t - \tau) + \frac{1}{2}\alpha (t - \tau)^2 - \pi\right)$$
 
 and if we expand the terms from the equation above, we'll get this pretty fancy expression for the returned signal
 $$V_{\text{Rx}}(t) = \cos\left(\omega_0 t - \omega_0 \tau + \frac{1}{2}\alpha t^2 - \alpha \tau t + \frac{1}{2}\alpha \tau^2 - \pi\right)$$
 
-which simplifies down to two time terms and one phase shift like this
+with some groupings, we can simplify that down to two time terms and one phase shift like this
 
 $$V_{\text{Rx}}(t) = \cos\left(\frac{1}{2}\alpha t^2 + (\omega_0 - \alpha \tau)t - \left(\omega_0 \tau - \frac{1}{2}\alpha \tau^2 + \pi\right)\right)$$
+
+Great. 
 
 From here, we will ultilize the signal mixer, which, mathematically speaking, multiplies the transmitted signal 
 
@@ -611,13 +601,19 @@ with the returned signal
 
 $$V_{\text{Rx}}(t) = \cos\left(\frac{1}{2}\alpha t^2 + (\omega_0 - \alpha \tau)t - \left(\omega_0 \tau - \frac{1}{2}\alpha \tau^2 + \pi\right)\right)$$
 
-and according to the product-to-sum relationship for consine
+and according to the product-to-sum relationship for the cosine function
 
 $$\cos(A)\cos(B) = \frac{1}{2}\cos(A - B) + \frac{1}{2}\cos(A + B)$$
 
-we will be getting a delta term $$\frac{1}{2}\cos(\theta_{\text{Tx}} - \theta_{\text{Rx}})$$ and a sum component $$\frac{1}{2}\cos(\theta_{\text{Tx}} + \theta_{\text{Rx}})$$
+we should expect a delta term 
 
-And once these two signals are obtained, we apply a low-pass filter to acquire the delta term and we throw away the sum. 
+$$\frac{1}{2}\cos(\theta_{\text{Tx}} - \theta_{\text{Rx}})$$
+
+and a sum term 
+
+$$\frac{1}{2}\cos(\theta_{\text{Tx}} + \theta_{\text{Rx}})$$
+
+Once these two signals are obtained, we apply a low-pass filter to acquire the delta term and we throw away the sum. 
 
 This delta term is what we called the beat signal, which has a much slower frequency than the original signals because the reflected waves aren't too different than the transmitted waves (even with Doppler), so the delta they produce is not significant, which makes it much more sampler-friendly.
 
@@ -629,47 +625,48 @@ $$V_{\text{beat}}(t) = \frac{1}{2}\cos(\left(\omega_0 t + \frac{1}{2}\alpha t^2\
 
 $$V_{\text{beat}}(t) = \frac{1}{2}\cos\left(\alpha \tau t + \omega_0 \tau - \frac{1}{2}\alpha \tau^2 + \pi\right)$$
 
-Notice how there is one time term only? ($\alpha \tau t$) 
+Notice how there is one time $\alpha \tau t$ term only?
 
-This allows us to simplify the expression into 
+This is very nice because it allows us to obtain a very simple expression of 
 
 $$V_{\text{beat}}(t) = \frac{1}{2}\cos\left(\omega_b t + \phi\right)$$
 
-where $\alpha \tau$ becomes the angular frequency for the beat signal $\omega_b$ and $\omega_0 \tau - \frac{1}{2}\alpha \tau^2 + \pi$ becomes the phase shift. (ps. the term $\$frac{1}{2}\alpha \tau^2$ is very small because of $\tau^2$ and so it is often ignored).
+where $\alpha \tau$ becomes the angular frequency for the beat signal $\omega_b$ and $\omega_0 \tau - \frac{1}{2}\alpha \tau^2 + \pi$ now becomes the phase shift. (ps. the term $\frac{1}{2}\alpha \tau^2$ is very small because of $\tau^2$ and so it is often ignored).
 
-From here it becomes clearer that, to find $\tau$, what we really need is the frequency for the beat signal $\omega_b$. So the question now becomes, given that we can measure $V_{\text{beat}}(t)$, how can we find $\omega_b$? 
+From here it becomes quite clear that, once we can measure the beat signal $V_{\text{beat}}(t)$, we can obtain the angular beat frequency $\omega_b$ to solve for $\tau$ simply by counting how fast its cycles are or using FFT (Fast Fourier Transform) to transform the signal from time domain to frequency domain.
 
-And the answer for that, is through FFT, Fast Fourier Transform.
+But we have one more problem here that we need to address first! (I know, we keep having problems, but trust me, this is the last problem we have, at least for what I know 😂) 
 
-But before applying FFT to this signal, we have one more problem that we need to address. (I know, we keep having problems, but trust me, this is the last problem we have, at least for what I know 😂) 
+And to incentify you a bit, this issue is actually related with the question we had from section 2 - "Why use a full circle to represent radar signals instead of just a verticle line?"
 
-And to excite you a bit more, this problem actually answers the question we had from section 2 - why a full circle is needed to represent radar signals, not just a verticle line.
-
-Anyway, the problem is that the cosine function has a phase ambiguity because 
+And this problem is that the cosine function has a phase ambiguity because 
 
 $$\cos(\theta) = \cos(-\theta)$$
 
-So it is important to determine the sign of the phase term ($\omega_b t + \phi$) as we record the beat signal $V_{\text{beat}}(t)$.
+So it is important to determine the sign of the phase term $\omega_b t + \phi$ for the beat signal as we record $V_{\text{beat}}(t)$.
 
-And this is done by utilizing the second coordinate that the circle brings, which provides sine function below for frequency modulated radar
+And this is done by utilizing the second coordinate that the circle brings, which provides the sine function below
+
+$$y(t) = \sin(\omega t)$$
+
+and in modulated frequency radar, this becomes
 
 $$y(t) = \sin\left(\omega_0 t + \frac{1}{2}\alpha t^2\right)$$
 
-In reality, this signal is created by manipulating the transmitted signal with a 90° shift via a device called a shifter. Mathematically, this can be visualized as:
+In reality, this y-component is created by manipulating the cosine transmitted signal with a 90° shift via a device called a shifter. Mathematically, this can be described as:
 
-$$\cos\left(\theta_{\text{tx}}(t)\right) \xrightarrow{+90^\circ} \sin\left(\theta_{\text{tx}}(t)\right)$$
+$$\cos\left(\theta_{\text{Tx}}(t)\right) \xrightarrow{+90^\circ} \sin\left(\theta_{\text{Tx}}(t)\right)$$
 
-The convention in radar terminology is that, the manipulated signal y(t), is called the Quadrature signal, denoted by the symbol $\Q(t)$, where the real transmitted signal is called the In-Phase signal, denoted by I(t).
+And the convention in radar analysis is that, the manipulated component y(t), is called the Quadrature signal, denoted by the symbol $Q(t)$, where the original transmitted signal is called the In-Phase signal, denoted by I(t).
 
 With that, we will rewrite what we have on hands for the transmitted signal as:
 
 $$I(t) = \cos\left(\omega_0 t + \frac{1}{2}\alpha t^2\right)$$
-&
 $$Q(t) = \sin\left(\omega_0 t + \frac{1}{2}\alpha t^2\right)$$
 
-And this time if we mix the Quadrature signal with the return signal below instead
+And this time if we take the Quadrature signal instead of the In-Phase signal and mix it with the returned signal
 
-$$\cos\left(\omega_0 t - \omega_0 \tau + \frac{1}{2}\alpha t^2 - \alpha \tau t + \frac{1}{2}\alpha \tau^2 - \pi\right)$$
+$$V_{\text{Rx}}(t) = \cos\left(\frac{1}{2}\alpha t^2 + (\omega_0 - \alpha \tau)t - \left(\omega_0 \tau - \frac{1}{2}\alpha \tau^2 + \pi\right)\right)$$
 
 according to the product-to-sum relationship 
 
@@ -687,23 +684,15 @@ or we can call it
 
 $$Q_{\text{beat}}(t) = \frac{1}{2}\sin\left(\omega_b t + \phi\right)$$
 
-Now solving this together with the In-Phase beat signal
+Now solving this together with the In-Phase beat signal from above
 
 $$I_{\text{beat}}(t) = V_{\text{beat}}(t) = \frac{1}{2}\cos\left(\omega_b t + \phi\right)$$
 
-we will nail down the sign of the phase term as we record the beat signal $V_{\text{beat}}(t)$.
+we can obtain the sign of the phase term for the beat signal $V_{\text{beat}}(t)$.
 
-And from there, we can finally apply FFT to transform the beat signal from time domain to frequency domain and find the beat frequency $\omega_b$.
+And from there, we find the beat frequency $\omega_b$, and then $\tau$ ($\tau = \frac{\omega_b}{\alpha}$), and then range ($R=2c\tau$).
 
-Once we have $\omega_b$, we can find $\tau$ using 
-
-$$\tau = \frac{\omega_b}{\alpha}$$
-
-and then determine the range of the object using
-
-$$R=2c\tau$$
-
-So this is it. As I promised, that was really the last problem I knew. Let's kill the post from here.😁
+So this is it. As I promised, that really was the last problem I knew. Let's kill the post from here.😁
 
 
 
@@ -719,3 +708,7 @@ Although for computer scientists, potentially, we could just treat the data as g
 
 Anyway, I hope you enjoyed the post. This one is very long and much longer than usual. During the beginning of this post, I thought I would be done in a few days. Boy, I was wrong. Radar, Radar, Radarrrrrrrr.
 
+
+## Acknowledgement
+
+I would like to thank my colleague Dr. Mihail Georgiev for checking my understanding and much of what I wrote in this blog. Thank you Mihail, for the advice and the discussions. Writing this post wouldn't have been possible without you.
