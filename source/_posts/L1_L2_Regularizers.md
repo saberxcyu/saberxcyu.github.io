@@ -100,17 +100,15 @@ $$\hat{\theta} = \arg\min_{\theta} \left( -\sum_{i=1}^{N} \log P(y_i \mid x_i, \
 
 As a reminder, the first term above is our likelihood; second term is our prior.
 
-Here, we will assume each $y$ in the data pairs collected, (X, Y), deviates from the underlying y because there exists some noise in the real world during the data colleciton process. 
+Here, we will assume each $y$ in the data pairs collected, (X, Y), deviates from the underlying $y$ (deterministic) because there exists noises in the real world during the data colleciton process. In another word, we assume that our prediction is that deterministic $y$, which the actual data label $y$ will hit around it because of noise.
 
-If we assume the noise is Gaussian, it will allow us to replace the likelihood term with a Probability Density Function (PDF) of a Gaussian distribution. 
+If we assume the noise is Gaussian, it will allow us to replace the likelihood term with a Probability Density Function (PDF) of a Gaussian distribution, which looks like
 
-In other words, we will get this expression for our likelihood term:
+$$p(X) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(X - \mu)^2}{2\sigma^2} \right)$$
 
-$$P(y_i \mid x_i, \theta) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(y_i - f_{\theta}(x_i))^2}{2\sigma^2} \right)$$
+where $\mu$ is the mean, and $\sigma^2$ is the variance.
 
-The stuff on the right side of the equation above is the Gaussian probability density function.
-
-Here is a demonstration from Wiki to help you understand that. The y-axis is the probability density, and the x-axis is the value of the variable.
+Here is a demonstration from Wiki to help you understand Gaussian PDF. The y-axis is probability density, and the x-axis is the value of the variable.
 
   <figure>
     <img src="gaussian.png" alt="gaussian.png">
@@ -118,6 +116,12 @@ Here is a demonstration from Wiki to help you understand that. The y-axis is the
       Figure 3: Gaussion distribution probability density functions from Wikipedia.
     </figcaption>
   </figure>
+
+With that, we will get this expression for our likelihood term:
+
+$$P(y_i \mid x_i, \theta) = \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(y_i - f_{\theta}(x_i))^2}{2\sigma^2} \right)$$
+
+Here, the Gaussian distribution mean $\mu$ is our predicted $y$ (which we shift as a result of channging $\theta$), and the label collected $y$ is what hits around it. 
 
 Now if we substitute this into the argmin equation above, what we will get is this: 
 
@@ -165,7 +169,7 @@ $$\nabla_j = \frac{\partial}{\partial \theta_j} \left( -\log P(\theta) \right) =
 
 If we put together all the elements of $\nabla$, we will see the gradient vector as:
 
-$$\nabla = \frac{1}{\sigma_{\theta}^2} [\theta_1, \theta_2, \dots, \theta_D] \end{bmatrix}^T$$
+$$\nabla = \frac{1}{\sigma_{\theta}^2} [\theta_1, \theta_2, \dots, \theta_D]^T$$
 
 During training, once we have the $\nabla$, we can update the existing weights with a step size, for each element j, towards the direction of the gradients.
 
@@ -207,6 +211,8 @@ $$\operatorname{sign}(x) = -1 \text{if } x < 0 $$
 
 Since the gradient is always either +1 or -1 regardless of the value of $\theta$, the L1 regularizor will always try to pull the weights towards zero, thus creating sparsity.
 
-And there you have it. L1 & L2 regularizations.
+And there you have it. This is L1 & L2 regularizations.
 
-I hope the explaination was clear and that it sticks with you from now on. (just in case you get asked about these regularizors on an interview 😆)
+Now since they are both initiated from assumptions on how the weights are drawn, you could also think of them as some kind of inductive bias that helps fight overfitting.
+
+Anyway, I hope the explaination was clear and that it sticks with you more from now on. (just in case you get asked about these regularizors on an interview 😆)
